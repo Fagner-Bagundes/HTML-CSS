@@ -7,10 +7,19 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="" method="get">
 
-        <p><label for="iusu"> Usuoário</label>
-        <input type="text" name="usu" id="iusu">
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p><label for="iusu"> Usuário</label>
+        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="10" size="8">
+        </p>
+
+        <p> 
+            <label for="isen"> Senha: </label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="10" size="14" placeholder="no minimo 8 letras" autocomplete="username">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
         </p>
     </form>
 
