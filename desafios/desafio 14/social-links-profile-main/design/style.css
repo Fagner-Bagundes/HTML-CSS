@@ -26,7 +26,7 @@ main{
 }
 img{
     border-radius: 50%;
-    max-width: 300px;
+    max-width: 50%;
 }
 
 h1{
@@ -71,4 +71,10 @@ a{
     color: var(--fontPesada);
     font-weight: bolder;
 
+}
+
+a:hover{
+    background-color: var(--fontTexto);
+    animation-delay: -2s;
+    transition: .35s;
 }
