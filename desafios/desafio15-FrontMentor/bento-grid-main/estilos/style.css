@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+:root{
+    --Purple100: hsl(254, 88%, 90%);
+--Purple500: hsl(256, 67%, 59%);
+--Yellow100: hsl(31, 66%, 93%);
+--Yellow500: hsl(39, 100%, 71%);
+--White:hsl(0, 0%, 100%);
+--Black:hsl(0, 0%, 7%);
+
+}
+
+
+
+body, html{
+   font-size: 18px;
+   font-family: "DM Sans", sans-serif;
+   padding: 20px 0px;
+}
+
+main{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+
+
+.box{
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.164);
+}
+
+/* 
+primeira caixa:
+*/
+
+.box1{
+    background-color: var(--Purple500);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+}
+.box1titulo{
+    color: var(--White);
+    font-size: 2.2em;
+    font-weight: normal;
+
+}
+
+.dezx{
+    color: var(--Yellow500);
+}
+.estrelas{
+    width: 60%;
+}
+.box1paragrafo{
+    color: var(--White);
+}
+
+/* segunda caixa: */
+
+.box2{
+    padding: 15px;
+    background-color: var(--White);
+    border: none;
+
+
+}
+
+.socialmidia{
+    width: 100%;
+
+}
+
+/* terceira caixa */
+.box3{
+    background-color: var(--Yellow500);
+    display: grid;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 10px;
+
+}
+
+.calendario{
+    width: 60%;
+}
+
+/* caixa4: */
+
+.box4{
+    background-color: var(--Purple100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10% 2%; 
+    gap: 20px;
+}
+
+.box4>img{
+    width: 90%;
+}
+
+/* box5 */
+
+.box5{
+    background-color: var(--Purple500);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.box5>img{
+    width: 70%;
+}
+.box5>h3{
+    color: var(--White);
+    text-align: center;
+    width: 200px;
+}
+
+/* box6 */
+.box6{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+.box6>img{
+width: 50%;
+}
+
+/* box7 */
+
+.box7{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+    background-color: var(--Yellow100);
+}
+.box7>img{
+    width: 60%;
+}
+
+.box8{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Yellow500);
+    padding: 20px;
+}
+
+.box8>img{
+    width: 85%;
+}

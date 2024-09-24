@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+/*  tela de tablet */
+@media screen and (min-width: 769px ) and (max-width: 1024px) {
+    body{ 
+        background-color: black;
+    }
+}
+
+
+
+/*  tela de computador e tv */
+
+@media screen and (min-width: 1025px ) {
+    body{ 
+        background-color: rgb(61, 45, 45);
+    }
+}
