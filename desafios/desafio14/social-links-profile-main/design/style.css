@@ -42,8 +42,9 @@ h1{
     text-align: center;
     font-size: 0.9em;
     margin: -10px;
+   
 }
-p{
+p.subtxt2{
     text-align: center;
 }
 section.conteudo{
@@ -72,8 +73,8 @@ section.conteudo{
 }
 
 a{
-    width: 110%;
-    padding: 5%;
+    width: 90%;
+    padding: 4%;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
