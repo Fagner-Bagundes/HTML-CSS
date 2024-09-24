@@ -49,7 +49,7 @@ p{
 section.conteudo{
     color: var(--fontTexto);
     background-color: var(--fundoBody);
-    min-width: 200px;
+    min-width: 250px;
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -67,14 +67,13 @@ section.conteudo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 90%;
     gap: 10px;   
 }
 
 a{
-    width: 90%;
+    width: 110%;
     padding: 5%;
-    max-width: 500px;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
