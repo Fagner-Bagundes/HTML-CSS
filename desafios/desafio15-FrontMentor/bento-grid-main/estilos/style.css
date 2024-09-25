@@ -30,12 +30,15 @@ main{
     gap: 25px;
     grid-template-columns: 80%;
     justify-content: center;
+    align-items: center;
 }
 
 
 .box{
     border-radius: 10px;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.164);
+    max-width: 300px;
+    margin: auto;
 }
 
 /* 
@@ -142,6 +145,7 @@ primeira caixa:
     flex-direction: column;
     padding: 20px;
     gap: 15px;
+    background-color: var(--White);
 }
 .box6>img{
 width: 50%;
@@ -158,6 +162,7 @@ width: 50%;
 }
 .box7>img{
     width: 60%;
+    
 }
 
 .box8{
@@ -165,8 +170,10 @@ width: 50%;
     flex-direction: column;
     background-color: var(--Yellow500);
     padding: 20px;
+
 }
 
 .box8>img{
-    width: 85%;
+    width: 80%;
+    min-width: 50px;
 }
