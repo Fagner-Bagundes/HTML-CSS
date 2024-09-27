@@ -33,6 +33,7 @@ html, body{
 /* header */
 
 header{
+    padding-inline: 30px;
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -58,13 +59,12 @@ header>p{
 main{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding-inline: 30px;
     padding-block: 80px;
 }
 
 
 .capa{
+    padding-inline: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,7 +102,7 @@ main{
     text-align: start;
 }
 .comunidade>img{
-    width: 100%;
+    width: 90%;
 }
 .comunidade>div>div>h1{
     font-size: 3em;
@@ -113,14 +113,17 @@ main{
 .vantagens{
     display: flex;
     flex-direction: column;
-    gap: 150px;
 }
 .box{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
     text-align: center;
+    padding-block: 100px;
+    width: 100%;
+}
+.box1, .box3{
+ 
 }
 
 .box>h1{
@@ -142,6 +145,11 @@ main{
     background-color: var(--cor1);
 }
 
+.newsletter-box-pai{
+    background-image: url(../images/bg-footer-top-mobile.svg);
+    padding-top: 50px;
+    background-repeat: no-repeat ;
+}
 .Newsletter-box{
     background-color: var(--cor1N);
     gap: 25px;
@@ -183,10 +191,14 @@ main{
     background-color: antiquewhite;
 }
 
-.logo2{
-    color: aliceblue;
-    background-color: rgba(240, 248, 255, 0.445);
-    width: 50%;
+.hudlle{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2em;
 }
+
+
+
 
 /* footer */
