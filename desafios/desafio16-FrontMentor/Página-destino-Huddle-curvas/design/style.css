@@ -105,9 +105,15 @@ main{
     gap: 50px;
     text-align: start;
 }
+.numeros>div>p{
+    text-align: center;
+    margin: 5px;
+}
 .comunidade>img{
     width: 80%;
 }
+
+
 .comunidade>div>div>h1{
     font-size: 3em;
 }
