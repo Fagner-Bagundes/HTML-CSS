@@ -182,6 +182,7 @@ main{
     padding-inline: 30px;
     padding-block: 80px;
     color: white;
+    margin-top: -55px;
 }
 
 .Newsletter-box>p{
@@ -224,13 +225,11 @@ main{
 }
 
 .footer-style{
-   margin-bottom: -40px;
-   width: 100%;
-   background-image: url(../images/bg-footer-top-mobile.svg);
-   background-size: contain;
-   height: 100px;
-   background-repeat: no-repeat;
-
+  width: 100%;
+  background-image: url(../images/bg-footer-top-mobile.svg);
+  height: 113px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
