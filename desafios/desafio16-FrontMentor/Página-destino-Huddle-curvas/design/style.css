@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-size: 0.9em;;
+}
+
+:root{
+
+    --cor1: hsl(322, 100%, 66%);
+    --cor2: hsl(321, 100%, 78%);
+    --cor3: hsl(0, 100%, 63%);
+
+    /* neutra */
+    --cor1N: hsl(192, 100%, 9%);
+    --cor2N: hsl(207, 100%, 98%);
+}
+
+/* Fontes head */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Fonte body */
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html, body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+header>img{
+    width: 90px;
+    height: 19px;
+}
+header>p{
+    border: solid 1px var(--cor1);
+    border-radius: 20px;
+    font-size: 0.7em;
+    width: 90px;
+    text-align: center;
+    padding-block: 5.5px;
+    color: var(--cor1);
+}
+
+/* main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-inline: 30px;
+    padding-block: 80px;
+}
+
+
+.capa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+}
+.capa>p{
+    font-size: 0.9em;
+}
+.botao1{
+    background-color: var(--cor1);
+    padding-block: 13px;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 0.9em;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.336);
+}
+
+.comunidade{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.numeros{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: start;
+}
+.comunidade>img{
+    width: 100%;
+}
+.comunidade>div>div>h1{
+    font-size: 3em;
+}
+.comunidade>div>div>img{
+    width: 30px;
+}
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.box>h1{
+    font-size: 1.5em;
+}
+.box>p{
+    padding: 3px;
+}
+.box>img{
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.box4{
+    display: flex;
+    gap: 40px;
+}
+.box4>.botao1{
+    background-color: var(--cor1);
+}
+
+.Newsletter-box{
+    background-color: var(--cor1N);
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 30px;
+    padding-block: 80px;
+    color: white;
+}
+
+.Newsletter-box>p{
+    width: 95%;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+#email{
+    height:45px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botaoSub{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor1);
+    color: white;
+    font-weight: 600;
+}
+
+.botaoSubpai{
+    margin-top: -10px;
+    display: flex;
+    justify-content: end;
+}
+
+.redes-icons{
+    background-color: antiquewhite;
+}
+
+.logo2{
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.445);
+    width: 50%;
+}
+
+/* footer */
