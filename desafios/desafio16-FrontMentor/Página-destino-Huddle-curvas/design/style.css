@@ -47,7 +47,6 @@ header>img{
 header>p{
     border: solid 1px var(--cor1);
     border-radius: 20px;
-    font-size: 0.7em;
     width: 90px;
     text-align: center;
     padding-block: 5.5px;
@@ -225,7 +224,12 @@ main{
 }
 
 .footer-style{
-   margin-bottom: -10px;
+   margin-bottom: -40px;
+   width: 100%;
+   background-image: url(../images/bg-footer-top-mobile.svg);
+   background-size: contain;
+   height: 100px;
+   background-repeat: no-repeat;
 
 }
 
