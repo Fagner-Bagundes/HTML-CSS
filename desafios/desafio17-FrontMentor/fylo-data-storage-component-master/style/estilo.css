@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+:root{
+ /* Cores */
+
+    --cor1Blue: hsl(243, 100%, 93%);
+    --cor2Blue: hsl(229, 7%, 55%);
+    --cor3DarkBlue: hsl(228, 56%, 26%);
+    --cor4VeryDarkBlue: hsl(229, 57%, 11%);
+    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+
+ /* fontes:  */
+    --font-1: font-family: "Raleway", sans-serif
+
+}
+
+body{
+    font-family:"Raleway", sans-serif;
+    Font-size: 14px;
+}
+
+body{
+    background-image: url(../images/bg-mobile.png);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: aquamarine;
+}
