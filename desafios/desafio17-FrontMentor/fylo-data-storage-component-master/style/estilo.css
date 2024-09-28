@@ -36,5 +36,33 @@ body{
 }
 
 main{
-    background-color: aquamarine;
+    background-color: rgba(197, 199, 198, 0.203);
+    display: grid;
+    grid-row: 200px 200px;
+    gap: 50px;
+    margin-inline: 50px;
+}
+
+.hero-1, .hero-2{
+    background-color: var(--cor3DarkBlue);
+    display: grid;
+}
+
+.hero-1{
+    padding: 30px;
+    border-top-right-radius: 100px;
+    gap: 15px;
+    
+}
+.icons{
+    display: flex;
+   
+    gap: 16px;
+}
+.icons>img{
+    width: 20px;
+    background-color: var(--cor4VeryDarkBlue);
+    padding: 10px;
+    height: 20px;
+    border-radius: 8px;
 }
