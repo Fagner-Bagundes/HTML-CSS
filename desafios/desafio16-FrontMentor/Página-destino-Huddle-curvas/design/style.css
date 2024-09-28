@@ -133,6 +133,9 @@ main{
     min-width: 100%;
     transform:  rotate(1260deg);
 }
+.imagem-fundo-pc, .imagem-fundo-pc2{
+    display: none;
+}
 
 
 .box{
@@ -147,7 +150,7 @@ main{
 }
 .box1, .box3{
  background-color: #F6FBFF;
- margin-bottom: ;
+
 }
 
 .box>h1{
@@ -174,7 +177,7 @@ main{
 
 
 }
-.Newsletter-box{
+.Newsletter-box> div{
     background-color: var(--cor1N);
     gap: 25px;
     display: flex;
@@ -189,6 +192,7 @@ main{
     width: 95%;
     font-size: 15px;
     line-height: 1.5em;
+    
 }
 #email{
     height:45px;
@@ -227,7 +231,7 @@ main{
 .footer-style{
   width: 100%;
   background-image: url(../images/bg-footer-top-mobile.svg);
-  height: 113px;
+  margin-bottom: -14px ;
   background-size: contain;
   background-repeat: no-repeat;
 }
