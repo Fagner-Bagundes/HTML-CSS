@@ -109,10 +109,6 @@ main{
    
 }
 
-.barra::-webkit-slider{
-    appearance: none;
-   
-}
 .gigas{
     
     display: flex;
