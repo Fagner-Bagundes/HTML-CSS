@@ -33,6 +33,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 
 main{
@@ -46,7 +47,7 @@ main{
     background-color: var(--cor3DarkBlue);
     display: grid;
     border-radius: 8px;
-  
+
 }
 
 .hero-1{
