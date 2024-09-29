@@ -16,7 +16,7 @@ body{
     --cor2Blue: hsl(229, 7%, 55%);
     --cor3DarkBlue: hsl(228, 56%, 26%);
     --cor4VeryDarkBlue: hsl(229, 57%, 11%);
-    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --Gradient: hsl(6, 100%, 80%), hsl(335, 100%, 65%);
 
  /* fontes:  */
     --font-1: font-family: "Raleway", sans-serif;
@@ -85,15 +85,25 @@ main{
     font-size: 1.2em;
 }
 
-.estilo{
-    -webkit-appearance: none;
-    outline: none;
-    width: 100%;
+.barra{
+    appearance: none;
     height: 20px;
-    border-radius: 9px;   
-    color: black;
+    border-radius: 10px;
+    background-color: var(--cor4VeryDarkBlue);
 }
 
+.barra::-webkit-slider-thumb{
+    background: linear-gradient( to right, var(--Gradient));
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.barra::-webkit-slider{
+    appearance: none;
+    background-color: antiquewhite;
+}
 .gigas{
     
     display: flex;
