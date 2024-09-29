@@ -50,9 +50,11 @@ main{
 }
 
 .hero-1{
-    padding: 30px;
+    padding-inline: 40px;
+    padding-block: 30px;
     border-top-right-radius: 100px;
     height: 150px;
+    align-items: center;
    
 }
 .icons{
@@ -61,10 +63,10 @@ main{
     gap: 16px;
 }
 .icons>img{
-    width: 20px;
+    width: 30px;
     background-color: var(--cor4VeryDarkBlue);
     padding: 10px;
-    height: 20px;
+    height: 30px;
     border-radius: 8px;
 }
 
