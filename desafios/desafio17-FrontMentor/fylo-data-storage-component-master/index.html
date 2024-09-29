@@ -29,7 +29,7 @@
     <section class="hero-2">
       <div class="barra-and-txt">
         Youve used 815 GB of your storage
-        <input class="barra" type="range" value="0"  min="0" max="1000"  id="valor" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" >
+        <input class="barra" type="range" value="185"  min="0" max="1000"  id="valor" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" >
       </div>
 
       <div class="gigas">
@@ -43,9 +43,13 @@
   </main>
 
   <script>
+   barra = document.querySelector(".barra")
+   gb = document.querySelector(".valor_final")
     function rangeSlide(value) {
       document.querySelector(".valor_final").innerHTML = value;
     }
+    gb.innerHTML = barra.value
+
   </script>
   
 </body>
