@@ -87,22 +87,30 @@ main{
 
 .barra{
     appearance: none;
-    height: 20px;
+    height: 23px;
     border-radius: 10px;
-    background-color: var(--cor4VeryDarkBlue);
+    background-image: linear-gradient(to right, var(--Gradient));
+    overflow: hidden;
+    border:solid 3px var(--cor4VeryDarkBlue);
+    
 }
 
 .barra::-webkit-slider-thumb{
-    background: linear-gradient( to right, var(--Gradient));
+    background-color: white;
     appearance: none;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    border: solid var(--cor4VeryDarkBlue);
     border-radius: 50%;
+    box-shadow: 409px 0px 0px 395px var(--cor4VeryDarkBlue);
+    
+
+   
 }
 
 .barra::-webkit-slider{
     appearance: none;
-    background-color: antiquewhite;
+   
 }
 .gigas{
     
