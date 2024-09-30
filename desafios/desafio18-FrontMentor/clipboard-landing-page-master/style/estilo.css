@@ -63,11 +63,9 @@ p{
     padding: 100px 25px;
     font-family:var(--font);
     gap: 70px;
-
     background-image: url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-size: contain;
-    
 }
 .cabecario_texto{
   display: flex;
@@ -113,6 +111,9 @@ p{
     align-items: center;
     gap:30px;
 }
+.hero-1-2-pai{
+    
+}
 
 .hero-1-2{
     display: flex;
@@ -123,10 +124,17 @@ p{
     width: 100%;
     min-width: 300px;
     max-width: 400px;
-    background-color: aqua;
     padding-block: 0px;
-    
 }
+
+.tela-pc{
+    display: block;
+}
+.tela-pc-2{
+    display: none;
+}
+
+
 .section-moveis{
     display: flex;
     flex-direction: column;
