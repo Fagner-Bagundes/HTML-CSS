@@ -72,6 +72,7 @@ p{
 .cabecario_texto{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
 
 }
@@ -82,7 +83,7 @@ p{
     color: white;
     text-decoration: none;
     font-family: var(--font);
- 
+
 
 }
 .links_download{
@@ -112,6 +113,7 @@ p{
     align-items: center;
     gap:30px;
 }
+
 .hero-1-2{
     display: flex;
     flex-direction: column;
@@ -119,6 +121,9 @@ p{
 }
 .telas{
     width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: aqua;
     padding-block: 0px;
     
 }
@@ -126,6 +131,7 @@ p{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 .section-moveis>img{
     padding-top: 40px ;
