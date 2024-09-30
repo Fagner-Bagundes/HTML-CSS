@@ -43,6 +43,17 @@ p{
 
 }
 
+/* Header */
+
+.botao_blue{
+    background-color: var(--LightBlue);
+    border-bottom: solid 2px rgb(69, 83, 186) ;
+}
+
+.botao_green{
+    background-color: var(--StrongCyan);
+    border-bottom: solid 2px  hsla(171, 87%, 25%, 0.873);
+}
 .cabecario{
     display: flex;
     flex-direction: column;
@@ -58,27 +69,22 @@ p{
     background-size: contain;
     
 }
-
 .cabecario_texto{
   display: flex;
   flex-direction: column;
   gap: 20px;
 
 }
-
-
-
 .links_download>a{
-    background: var(--StrongCyan);
+   
     border-radius:30px;
     padding: 15px 70px;
     color: white;
     text-decoration: none;
     font-family: var(--font);
-    border-bottom: solid 2px  hsla(171, 87%, 25%, 0.873);
+ 
 
 }
-
 .links_download{
     display: flex;
     flex-direction: column;
@@ -86,6 +92,8 @@ p{
     margin-top: 20px;
     
 }
+
+/* Main */
 
 .corpo{
    display: flex;
@@ -96,10 +104,8 @@ p{
    padding: 20px 30px;
    font-family: var(--font);
    gap: 150px;
+
 }
-
-
-
 .hero-1{
     display:flex;
     flex-direction: column;
@@ -109,8 +115,7 @@ p{
 .hero-1-2{
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    
+    gap: 5px;  
 }
 .telas{
     width: 100%;
@@ -126,15 +131,12 @@ p{
     padding-top: 40px ;
 
 }
-
-
 .hero-2{
    
     display: flex;
     flex-direction: column;
     gap: 65px;
 }
-
 .hero-2-2{
     display: flex;
     flex-direction: column;
@@ -146,6 +148,53 @@ p{
     padding: 15px;
    
 }
+
+.imagens{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.baixar-box-2{
+    background-color: rgb(245, 246, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+    width: 100vw;
+}
+.baixar-box-2>p{
+    color: var(--DarkGrayishBlue);
+}
+.baixar-box-2>img{
+    width: 40px;
+}
+
+.redes-icons{
+    display: flex;
+    gap: 25px;
+}
+
+
+.area_download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 40px;
+    font-family:var(--font);
+    gap: 10px; 
+}
+/* footer */
+
+
 
 
 
