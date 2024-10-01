@@ -27,14 +27,10 @@
 
 
 .corpo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     padding: 20px 30px 0px 30px;
     font-family: var(--font);
     gap: 150px;
+    background-color: aliceblue;
  
  }
  .hero-1{
@@ -46,7 +42,7 @@
  }
 
  .hero-1>p{
-    width: 50%;
+    width: 60%;
     min-width: 500px;
     max-width: 1000px;
     margin-bottom: 30px;
@@ -91,6 +87,8 @@
  }
  .section-moveis>img{
      padding-top: 40px ;
+     width: 60%;
+     min-width: 600px;
  
  }
  .hero-2{
@@ -99,27 +97,31 @@
      flex-direction: column;
      gap: 65px;
  }
+
+ .section-moveis>p{
+   
+    padding: 15px;
+    width: 60%;
+   
+}
  .hero-2-2{
      display: flex;
      flex-direction: column;
      gap: 55px;
+   
  }
- 
- .hero-2-2>div>h2{
-     
-     padding: 15px;
+ .hero-2-2pc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     
  }
- 
- .imagens{
-    
-     display: flex;
-     flex-direction: column;
-     gap: 50px;
-     justify-content: center;
-     align-items: center;
-     
- }
+
+ .icons-and-text{
+    width: 350px;
+}
  
  .baixar-box-2{
      background-color: rgb(245, 246, 248);
