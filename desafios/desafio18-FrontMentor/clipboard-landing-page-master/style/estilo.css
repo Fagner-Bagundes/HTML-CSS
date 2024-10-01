@@ -49,10 +49,16 @@ p{
     background-color: var(--LightBlue);
     border-bottom: solid 2px rgb(69, 83, 186) ;
 }
+.botao_blue:hover{
+    background-color: rgba(27, 92, 132, 0.864);
+}
 
 .botao_green{
     background-color: var(--StrongCyan);
     border-bottom: solid 2px  hsla(171, 87%, 25%, 0.873);
+}
+.botao_green:hover{
+    background-color: rgb(81, 169, 156);
 }
 .cabecario{
     display: flex;
