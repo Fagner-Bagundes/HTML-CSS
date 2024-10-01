@@ -91,15 +91,8 @@
      min-width: 600px;
  
  }
- .hero-2{
-    
-     display: flex;
-     flex-direction: column;
-     gap: 65px;
- }
-
+ 
  .section-moveis>p{
-   
     padding: 15px;
     width: 60%;
    
@@ -111,7 +104,6 @@
    
  }
  .hero-2-2pc{
-    display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
@@ -123,18 +115,6 @@
     width: 350px;
 }
  
-
- 
- .area_download{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     padding: 100px 40px;
-     font-family:var(--font);
-     gap: 10px; 
- }
 
  .area_download>p{
     width: 70%;
