@@ -1,0 +1,55 @@
+
+@media screen and (min-width: 1024px) {
+
+    .fundo{
+
+        margin-left: -100px;
+        width: 50vw;
+        min-width: 200px;
+        height: 600px;
+        position: absolute;
+        background-color: aqua;
+    
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        padding: 190px 100px;
+        background-color: rgb(12, 59, 100);
+    
+    }
+    
+
+    .text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       
+        width: 450px;
+
+
+    }
+    .text>h1{
+        font-size: 2.5em;
+    }
+    .text>p{
+        line-height: 1.8em;
+      
+        text-align: start;
+    
+        width: 100%;
+        color: var(--DarkGrayishViolet);
+        font-size: 16px;
+    
+    }
+}
+
+
+
