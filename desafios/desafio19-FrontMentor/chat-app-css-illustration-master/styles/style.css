@@ -28,6 +28,7 @@
 /* cores gradient */
 
 --gradient : to left,  hsl(293, 100%, 63%), hsl(264, 100%, 61%)  ;
+--gradient-2 : to bottom,  hsl(293, 100%, 63%), hsl(264, 100%, 61%)  ;
 
 
 
@@ -44,7 +45,7 @@ body{
     min-width: 200px;
     height: 500px;
     position: absolute;
-    background-image: linear-gradient(var(--gradient)); 
+    background-image: linear-gradient(var(--gradient-2)); 
 
     border-bottom-left-radius: 00px ;
     border-bottom-right-radius: 100%;
@@ -64,7 +65,7 @@ main{
 
 .phone{
     position: relative;
-    height: 490px;
+    height: 480px;
     background-color: var(--White);
     padding: 10px;
     display: flex;
@@ -82,8 +83,7 @@ main{
     background-color: var(--LightGrayishViolet);
     border-radius: 30px;
     font-size: 0.8em;
-    text-align: center;
-    
+    text-align: center;  
 }
 .phone-caixa-branca{
     background-color: white;
@@ -91,11 +91,11 @@ main{
     border-radius: 20px;
     width: 50%;
     position: relative;
-    margin-top: -8px;
+    margin-top: -6px ;
     margin-bottom: -15px;
 }
 .phone-profile{
-    padding: 25px 10px 15px 10px;
+    padding: 15px 10px 15px 10px;
     background-image: linear-gradient( var(--gradient));
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -106,12 +106,12 @@ main{
     align-items: center;
     justify-content: start;
     gap: 10px;
+
     
 }
 
 .profile-avatar{
     width: 12%;
-    background-color: rgb(11, 62, 107);
     border-radius:50%;
     border: solid 1.5px white;
 }
@@ -243,6 +243,7 @@ h2{
 }
 .text>h1{
     font-size: 2.5em;
+    color: var(--VeryDarkDesaturatedVioletbutton);
 }
 .text>p{
     line-height: 1.8em;

@@ -3,15 +3,14 @@
 
     .fundo{
 
-        margin-left: -100px;
+        margin-left: -300px;
         width: 50vw;
         min-width: 200px;
-        height: 600px;
+        height: 700px;
         position: absolute;
-        background-color: aqua;
     
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
     }
 
     main{
@@ -19,21 +18,55 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 10%;
-        padding: 190px 100px;
-        background-color: rgb(12, 59, 100);
+        gap: 120px;
+        padding: 150px 100px 190px 100px;
     
     }
+    .phone{
+        padding-top: 1%;
+    }
+    .phone-screen{
+        background-color: var(--LightGrayishViolet);
+        border-radius: 30px;
+        font-size: 0.8em;
+        text-align: center;
+       
+      
+    }
+    .phone-caixa-branca{
+        background-color: white;
+        padding: 5%;
+        border-radius: 20px;
+        width: 50%;
+        position: relative;
+        margin-top: -6px ;
+        margin-bottom: -15px;
+    }
+    .phone-profile{
+        padding: 15px 10px 15px 10px;
+        background-image: linear-gradient( var(--gradient));
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+    
+        
+    }
 
     .text{
         text-align: center;
         display: flex;
         flex-direction: column;
         gap: 20px;
-       
-        width: 450px;
-
+        width: 400px;
+        text-align: start;
+        margin-right: -90px;
+      
 
     }
     .text>h1{
