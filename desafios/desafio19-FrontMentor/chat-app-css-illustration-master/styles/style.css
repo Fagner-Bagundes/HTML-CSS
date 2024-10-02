@@ -54,7 +54,8 @@ main{
     background-color: var(--White);
     padding: 10px;
     display: flex;
-    width: 230px;
+    width: 250px;
+    
     border-radius: 30px;
     display: flex;
     flex-direction: column;
