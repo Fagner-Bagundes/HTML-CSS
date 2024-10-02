@@ -50,7 +50,7 @@ main{
 }
 
 .phone{
-    height: 480px;
+    height: 490px;
     background-color: var(--White);
     padding: 10px;
     display: flex;
@@ -105,6 +105,13 @@ main{
     display: flex;
     flex-direction: column;
     color: white;
+
+    margin-right: 60px;
+}
+.pontos{
+    color: white;
+   
+  
 }
 
 h2{
@@ -154,7 +161,7 @@ h2{
     gap: 5px;
 }
 .dogs-image{
-    width: 30px;
+    width: 40px;
     border-radius: 10px;
 }
 
@@ -189,7 +196,25 @@ h2{
     font-weight: bolder;
     font-family: var(--font);
 }
-.-phone-box-of-text{
+.phone-box-of-text{
+    background-color: var(--White);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.091);
+    padding: 8px 5px 8px 20px;
+    border-radius: 20px;
+    width: 190px;
+    color: var(--DesaturatedDarkViolet);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.button-to-Send{
+    border-radius: 50%;
+    background-color: var(--VeryDarkDesaturatedVioletbutton);
+    color: var(--White);
+    padding: 5px 7px;
+    font-size: 1.4em;
 
 }
 
