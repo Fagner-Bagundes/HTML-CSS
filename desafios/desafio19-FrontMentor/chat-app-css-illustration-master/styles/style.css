@@ -106,11 +106,29 @@ main{
     flex-direction: column;
     color: white;
 }
+
 h2{
     font-size: 1.1em;
 }
 .phone-talk{
 
+}
+
+.mensage-he{
+
+}
+.my-mensage{
+
+}
+
+.value-walk-box{
+    
+}
+.dogs-images-box{
+    display: flex;
+}
+.dogs-image{
+    width: 30px;
 }
 
 
