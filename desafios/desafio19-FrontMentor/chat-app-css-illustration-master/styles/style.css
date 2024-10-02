@@ -50,7 +50,7 @@ main{
 }
 
 .phone{
-    height: 430px;
+    height: 480px;
     background-color: var(--White);
     padding: 10px;
     display: flex;
@@ -135,6 +135,14 @@ h2{
 }
 .my-mensage{
     font-size: 0.8em;
+    background-color: var(--White);
+    padding: 8px;
+    align-self: end;
+    border-radius: 10px;
+    text-align: start;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.091);
+    color: var(--DesaturatedDarkViolet);
+
 }
 
 .value-walk-box{
@@ -142,9 +150,12 @@ h2{
 }
 .dogs-images-box{
     display: flex;
+    align-self: end;
+    gap: 5px;
 }
 .dogs-image{
     width: 30px;
+    border-radius: 10px;
 }
 
 .value-walk-box{
