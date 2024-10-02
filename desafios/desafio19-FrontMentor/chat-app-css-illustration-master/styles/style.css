@@ -112,17 +112,33 @@ h2{
 }
 .phone-talk{
 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    align-items: start;
+
+}
+.phone-talk>p{
+   
 }
 
 .mensage-he{
+    background-color: rgb(237, 229, 243);
+    color: var(--ModerateViolet);
+    border-radius: 8px;
+    width: 110px;
+    padding: 10px 10px 10px 10px;
+    text-align: start;
+    font-size: 0.8em;
 
 }
 .my-mensage{
-
+    font-size: 0.8em;
 }
 
 .value-walk-box{
-    
+
 }
 .dogs-images-box{
     display: flex;
@@ -131,7 +147,37 @@ h2{
     width: 30px;
 }
 
+.value-walk-box{
+    width: 135px;
+    background-image: linear-gradient( var(--gradient));
+    text-align: start;
+    padding: 10px 15px 10px 6px;
+    font-size: 0.9em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    align-items: center;
+}
 
+.text-value{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.boll{
+    width: 13px;
+    border:solid 1px aliceblue;
+    height: 13px;
+    border-radius: 50%;
+}
+.value{
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: var(--font);
+}
 .-phone-box-of-text{
 
 }
