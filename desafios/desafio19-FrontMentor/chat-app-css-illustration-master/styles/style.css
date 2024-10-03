@@ -65,7 +65,7 @@ main{
 
 .phone{
     position: relative;
-    height: 480px;
+    height: 490px;
     background-color: var(--White);
     padding: 10px;
     display: flex;
@@ -87,11 +87,11 @@ main{
 }
 .phone-caixa-branca{
     background-color: white;
-    height: 25px;
+    padding: 15px;
     border-radius: 20px;
-    width: 50%;
+    width: 100px;
     position: relative;
-    margin-top: -6px ;
+    margin-top: -20px ;
     margin-bottom: -15px;
 }
 .phone-profile{
