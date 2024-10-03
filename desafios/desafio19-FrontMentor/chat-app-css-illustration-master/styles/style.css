@@ -65,7 +65,7 @@ main{
 
 .phone{
     position: relative;
-    height: 490px;
+    height: 500px;
     background-color: var(--White);
     padding: 10px;
     display: flex;
@@ -91,7 +91,7 @@ main{
     border-radius: 20px;
     width: 100px;
     position: relative;
-    margin-top: -20px ;
+    margin-top: -10px ;
     margin-bottom: -15px;
 }
 .phone-profile{

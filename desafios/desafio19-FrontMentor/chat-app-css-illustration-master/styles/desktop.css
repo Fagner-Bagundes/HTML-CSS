@@ -3,11 +3,11 @@
 
     .fundo{
 
-        margin-left: -300px;
-        width: 50vw;
+        margin-left: -200px;
+        width: 45vw;
         min-width: 200px;
         height: 700px;
-        position: absolute;
+        position: fixed;
     
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
