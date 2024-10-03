@@ -12,6 +12,23 @@
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
     }
+    .fundo2{
+
+       
+        width: 45vw;
+        min-width: 200px;
+        height: 700px;
+        position: fixed;
+    
+        margin-left: 76% ;
+
+
+        background-color: rgb(250, 244, 251) ;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius:100%;
+        transform: rotate(180deg);
+        margin-top: 10%;
+    }
 
     main{
         display: flex;
@@ -34,6 +51,7 @@
         width: 400px;
         text-align: start;
         margin-right: -90px;
+        position: relative;
       
 
     }
@@ -50,6 +68,8 @@
         font-size: 16px;
     
     }
+
+   
 }
 
 
