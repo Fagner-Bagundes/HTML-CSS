@@ -3,6 +3,18 @@
     padding: none;
 }
 
+h3, p{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    color: var(--Verydarkgrayishblue);
+}
+h2{
+    font-size: 1.3em;
+   
+}
+
 /* - Mobile: 375px
 - Desktop: 1440px */
 
@@ -20,14 +32,41 @@
 --Lightgrayishblue: hsl(210, 46%, 95%);
 
 --Font-size: 13px;
-
-
+--font-family : "Barlow Semi Condensed", sans-serif;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 
 main{
-    background-color: beige;
-    margin: 60px 10px;
+   
+    margin: 60px 15px;
+    font-family:var(--font-family);
+    color: white;
+    font-size: var(--Font-size);
+    display: grid;
+    gap: 25px;
+}
+.box{
+    background-color: black;
+    padding: 30px;
+    border-radius: 15px;
+}
+.usuarios{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name-situation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 35px;    
+    border-radius: 50%;
+    border: solid 1px white;
 }
