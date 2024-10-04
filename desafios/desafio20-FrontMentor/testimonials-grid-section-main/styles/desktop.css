@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width:1440px) {
+
+    body{
+     
+    
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-template-areas: 
+        'daniel daniel jonathan Kira '
+        'jeanette Patrick Patrick Kira'
+        ;
+        justify-content: center;
+        align-items: center;
+        padding: none;
+        margin: 15%;
+      
+    }
+
+    .box{
+        height: 260px;
+        margin: none;
+        font-size: 1.2em;
+    }
+
+    .daniel{
+        background-color: var(--Moderateviolet);
+        grid-area: daniel;
+        background-position-x: 85%;
+
+    }
+
+    .jonathan{
+        grid-area: jonathan;
+    }
+    .jeanette{
+        grid-area: jeanette;
+    }
+
+    .Patrick{
+        background-color: var(--Verydarkblackishblue);
+        grid-area: Patrick;
+    }
+    .Kira{
+        grid-area: Kira;
+        height: 90%;
+    }
+
+
+}
+

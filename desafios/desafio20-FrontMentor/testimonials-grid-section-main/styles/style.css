@@ -54,6 +54,8 @@ main{
     font-size: var(--Font-size);
     display: grid;
     gap: 25px;
+    justify-content: center;
+    align-items: center;
 }
 .box{
     background-color: black;
@@ -63,6 +65,7 @@ main{
     flex-direction: column;
     gap: 10px;
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.106);
+    max-width: 600px;
 
 }
 .usuarios{
@@ -92,6 +95,9 @@ img{
 
 .box-roxo{
     background-color: var(--Moderateviolet);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
 }
 
 .box-cinza{
