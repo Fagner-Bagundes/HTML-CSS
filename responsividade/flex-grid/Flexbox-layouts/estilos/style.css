@@ -64,7 +64,7 @@ p{
 
 .grid1{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 800px;
     margin: auto;
     gap: 20px;
@@ -76,6 +76,7 @@ p{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     align-items: center;
+    background-color: aliceblue;
 }
 
 .grid1>div.propaganda{
