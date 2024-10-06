@@ -44,7 +44,7 @@ body{
     width: 50vw;
     min-width: 200px;
     height: 500px;
-    position: absolute;
+   
     background-image: linear-gradient(var(--gradient-2)); 
 
     border-bottom-left-radius: 00px ;
@@ -64,13 +64,12 @@ main{
 }
 
 .phone{
-    position: relative;
     height: 500px;
     background-color: var(--White);
     padding: 10px;
     display: flex;
     width: 250px;
-
+    z-index: 1000;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -83,14 +82,14 @@ main{
     background-color: var(--LightGrayishViolet);
     border-radius: 30px;
     font-size: 0.8em;
-    text-align: center;  
+    text-align: center; 
 }
 .phone-caixa-branca{
     background-color: white;
     padding: 15px;
     border-radius: 20px;
     width: 100px;
-    position: relative;
+    z-index: 1000;
     margin-top: -10px ;
     margin-bottom: -15px;
 }
