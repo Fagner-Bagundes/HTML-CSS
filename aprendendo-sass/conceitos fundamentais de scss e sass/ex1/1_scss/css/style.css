@@ -1,0 +1,12 @@
+.conteiner {
+  background-color: #EEE;
+  padding: 20px;
+}
+.conteiner #title {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
