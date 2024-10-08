@@ -1,3 +1,7 @@
+@charset "UTF-8";
+/*ESte comentário estará no css */
+/*! esse aparecerá tbm
+ *  200 */
 .container {
   background-color: #DDD;
   padding: 20px;
