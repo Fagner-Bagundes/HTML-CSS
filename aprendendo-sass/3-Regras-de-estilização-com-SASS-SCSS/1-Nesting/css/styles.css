@@ -1,6 +1,3 @@
-div, main {
-  background-color: #DDD;
-}
 div p, div h2, main p, main h2 {
   color: red;
 }
@@ -11,6 +8,30 @@ main .p-blue {
 
 ol li {
   color: purple;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  transform: 0.5s;
+  padding: 10px;
+  border: 1px solid green;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+a:hover {
+  background-color: green;
+  color: white;
+}
+
+.container {
+  background-color: #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+.container-content {
+  color: green;
 }
 
 /*# sourceMappingURL=styles.css.map */
