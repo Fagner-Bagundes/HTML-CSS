@@ -13,9 +13,10 @@ a {
 }
 
 div p {
-  background-color: green;
+  background-color: black;
   color: #fff;
   border: 3px dotted blue;
+  margin: 20px;
 }
 div p span {
   color: green;
