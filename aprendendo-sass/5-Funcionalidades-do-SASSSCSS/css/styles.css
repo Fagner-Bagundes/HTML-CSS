@@ -5,4 +5,19 @@
   border-radius: 5px;
 }
 
+body {
+  margin: 20px;
+}
+
+p {
+  color: red;
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid red;
+}
+p:hover {
+  border-color: blue;
+  color: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */
