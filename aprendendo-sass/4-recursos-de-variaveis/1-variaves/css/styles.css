@@ -10,4 +10,12 @@ a {
   color: #1a68b6;
 }
 
+div p {
+  background-color: blue;
+  color: #fff;
+}
+div p span {
+  color: green;
+}
+
 /*# sourceMappingURL=styles.css.map */
