@@ -5,3 +5,14 @@
     @else 
         $color: blue
     @return $color
+
+
+@function custom-border-function($variation: 1)
+    $border: #000
+    @if $variation == 1 
+        $border: 1px solid red
+    @else if $variation == 2
+        $border: 2px solid green
+    @else 
+        $border: 10px dotted gold
+    @return $border

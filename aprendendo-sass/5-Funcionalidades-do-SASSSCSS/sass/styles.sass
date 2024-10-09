@@ -32,15 +32,19 @@ p
     @include colors($background: #123, $font: #fff)
 
 .container-menor
-   p
+    border: custom-border-function()
+    p
         width: 100px * 2
         padding: 10px + 20px
         font-size: 20px
         color: text-color(20)
+        
 
 
 .container-maior
+    border: custom-border-function(2)
     p
         width: 25% * 3
         font-size: 35px
         color: text-color(35)
+        border: custom-border-function(3)
