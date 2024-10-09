@@ -9,7 +9,7 @@
 
 @function custom-border-function($variation: 1)
     $border: #000
-    $var: 4
+    $var: 4 
     @if $variation > $var
         @warn "O numero máximo de variações é #{$var}"
 
@@ -23,4 +23,6 @@
     @return $border
 
 @function custom-width($width: 200px, $division: 2)
+
+    @debug 'o valor da divisão é #{calc($width / $division)}'
     @return calc($width / $division)
