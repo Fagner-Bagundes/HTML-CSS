@@ -2,7 +2,7 @@
 @import 'button'
 @import 'mixins'
 @import 'plugins'
-
+@import 'functions'
 
 body
     margin: 20px
@@ -17,14 +17,14 @@ p
     @include espacamento(10px, 10px)
     @include custom-border(solir, red,)
     @include colors
-    @extend %font-pattern
+   
 
 
 .esp-medio
     @include espacamento(15px,15px)
     @include custom-border(dotted, blue, 4px)
     @include colors($background: #321)
-    @extend %font-pattern
+   
 
 .esp-maior
     @include espacamento(20px,20px)
@@ -32,8 +32,15 @@ p
     @include colors($background: #123, $font: #fff)
 
 .container-menor
-    width: 100px * 2
-    padding: 10px + 20px
+   p
+        width: 100px * 2
+        padding: 10px + 20px
+        font-size: 20px
+        color: text-color(20)
+
 
 .container-maior
-    width: 25% * 3
+    p
+        width: 25% * 3
+        font-size: 35px
+        color: text-color(35)

@@ -5,12 +5,6 @@
   border-radius: 5px;
 }
 
-.esp-medio, .esp-menor {
-  font-size: 2rem;
-  line-height: 1.5rem;
-  text-transform: uppercase;
-}
-
 body {
   margin: 20px;
 }
@@ -50,13 +44,17 @@ p:hover {
   background-color: #123;
 }
 
-.container-menor {
+.container-menor p {
   width: 200px;
   padding: 30px;
+  font-size: 20px;
+  color: blue;
 }
 
-.container-maior {
+.container-maior p {
   width: 75%;
+  font-size: 35px;
+  color: purple;
 }
 
 /*# sourceMappingURL=styles.css.map */
