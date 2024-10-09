@@ -5,6 +5,12 @@
   border-radius: 5px;
 }
 
+.esp-medio, .esp-menor {
+  font-size: 2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
 body {
   margin: 20px;
 }
@@ -24,18 +30,33 @@ p:hover {
   padding: 10px;
   margin: 10px;
   border: 1px solir red;
+  color: #000;
+  background-color: #fff;
 }
 
 .esp-medio {
   padding: 15px;
   margin: 15px;
   border: 4px dotted blue;
+  color: #000;
+  background-color: #321;
 }
 
 .esp-maior {
   padding: 20px;
   margin: 20px;
   border: 1px solid green;
+  color: #fff;
+  background-color: #123;
+}
+
+.container-menor {
+  width: 200px;
+  padding: 30px;
+}
+
+.container-maior {
+  width: 75%;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,21 +1,39 @@
 @import 'variables'
 @import 'button'
 @import 'mixins'
+@import 'plugins'
+
+
 body
     margin: 20px
 
 p
     @include special
 
+
+
+
 .esp-menor
     @include espacamento(10px, 10px)
     @include custom-border(solir, red,)
+    @include colors
+    @extend %font-pattern
+
 
 .esp-medio
     @include espacamento(15px,15px)
     @include custom-border(dotted, blue, 4px)
+    @include colors($background: #321)
+    @extend %font-pattern
 
 .esp-maior
     @include espacamento(20px,20px)
     @include custom-border(solid, green)
-    
+    @include colors($background: #123, $font: #fff)
+
+.container-menor
+    width: 100px * 2
+    padding: 10px + 20px
+
+.container-maior
+    width: 25% * 3
