@@ -7,8 +7,6 @@
 body
     margin: 20px
 
-p
-    @include special
 
 
 
@@ -48,3 +46,13 @@ p
         font-size: 35px
         color: text-color(35)
         border: custom-border-function(3)
+
+.teste-1
+    width: custom-width()
+    background-color: red 
+.teste-2
+    width: custom-width($width: 1000px)
+    background-color: blue
+.teste-3
+    width: custom-width($width: 200px, $division: 5)
+    background-color: purple
