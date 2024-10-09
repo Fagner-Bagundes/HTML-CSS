@@ -23,16 +23,19 @@ p:hover {
 .esp-menor {
   padding: 10px;
   margin: 10px;
+  border: 1px solir red;
 }
 
 .esp-medio {
   padding: 15px;
   margin: 15px;
+  border: 4px dotted blue;
 }
 
 .esp-maior {
   padding: 20px;
   margin: 20px;
+  border: 1px solid green;
 }
 
 /*# sourceMappingURL=styles.css.map */
