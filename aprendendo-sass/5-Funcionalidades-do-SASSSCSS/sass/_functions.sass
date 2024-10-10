@@ -26,3 +26,15 @@
 
     @debug 'o valor da divisão é #{calc($width / $division)}'
     @return calc($width / $division)
+
+@function calcolo($a, $b)
+
+    $result: 0
+
+    @if $a > $b
+        $result: red
+    @else if $a < $b
+        $result: purple
+    @else 
+        $result: green
+    @return $result
