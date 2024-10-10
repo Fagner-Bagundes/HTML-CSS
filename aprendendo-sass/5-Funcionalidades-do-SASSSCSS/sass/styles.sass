@@ -54,3 +54,19 @@ body
     width: custom-width($width: 200px, $division: 5)
     padding: 20px
     background-color:  calcolo(10, 10)
+
+$fonts: 40px, 60px, 100px
+
+@each $font in $fonts
+    .title-#{$font}
+        font-size: $font
+        line-height: $font * 1.2
+
+@for $i from 1 through 3
+    .p-#{$i}
+        @if $i == 1
+            color: lightblue
+        @else if $i == 2
+            color: lightgreen
+        @else if $i == 3
+            color: teal 
