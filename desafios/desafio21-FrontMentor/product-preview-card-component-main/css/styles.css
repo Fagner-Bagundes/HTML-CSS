@@ -7,4 +7,17 @@
   text-decoration: none;
 }
 
+.card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  border-radius: 15px;
+}
+.card .image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */
