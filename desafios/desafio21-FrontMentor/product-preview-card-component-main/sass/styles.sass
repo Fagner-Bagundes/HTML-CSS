@@ -2,7 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap')
 
-    
+@mixin pc-screen
+    @media screen and (min-width: 1024px)
+        @content
+
+  
 // Color-Primary
 $darkcyan: hsl(158, 36%, 37%)
 $cream: hsl(30, 38%, 92%)
@@ -36,6 +40,9 @@ p
     font-weight: 500
     opacity: .9
 
+    @include pc-screen
+        font-size: 1.2rem
+
 
 .card
     margin: 25px
@@ -45,10 +52,29 @@ p
     background-color: $white
     max-width: 515px
     padding-bottom: 15px
+
+    @include pc-screen
+        flex-direction: row
+        max-width: 800px
+        padding-bottom: 0px
+
     &-image
         border-top-left-radius: 15px
         border-top-right-radius: 15px
-        width: 100%
+        width: 100%       
+
+    &-image-mobile
+        @include pc-screen
+            display: none
+
+    &-image-pc
+        display: none
+        @include pc-screen
+            display: block
+            width: 50%
+            border-top-left-radius: 15px
+            border-bottom-left-radius: 15px
+            border-top-right-radius: 0
 
     &-content
         margin: 20px
@@ -56,15 +82,25 @@ p
         flex-direction: column
         gap: 17px
 
+        @include pc-screen
+            padding: 25px
+            gap: 25px
+
         &-perfume-text
             font-size: .9rem
             font-weight: bold
             opacity: 0.5
 
+            @include pc-screen
+                font-size: 1.2rem
+
         h1
             font-size: $font-title
             font-family: 'Fraunces'
             font-size: 2.2rem
+
+            @include pc-screen
+                font-size: 3rem
 
         &-prices
             display: flex
@@ -77,12 +113,16 @@ p
                 font-size: 2rem
                 font-weight: bolder
 
+                @include pc-screen
+                    font-size: 2.6rem
+
+
             .preco-original
                 font-family: $font-basic
                 font-size: $font-size-paragraph
                 color: $Very-dark-blue
                 text-decoration: line-through
-                opacity: 0.5
+                opacity: 0.9
 
         .btn-add-to-cart
             padding: 15px
@@ -95,6 +135,15 @@ p
             justify-content: center
             gap: 10px
             font-weight: bold
+            transition: .5s
+
+            &:hover
+                background-color: rgb(26, 64, 49)
+                cursor: pointer
+
+            @include pc-screen
+                padding: 20px
+
 
                 
 

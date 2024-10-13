@@ -23,6 +23,11 @@ p {
   font-weight: 500;
   opacity: 0.9;
 }
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
 
 .card {
   margin: 25px;
@@ -33,10 +38,34 @@ p {
   max-width: 515px;
   padding-bottom: 15px;
 }
+@media screen and (min-width: 1024px) {
+  .card {
+    flex-direction: row;
+    max-width: 800px;
+    padding-bottom: 0px;
+  }
+}
 .card-image {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .card-image-mobile {
+    display: none;
+  }
+}
+.card-image-pc {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .card-image-pc {
+    display: block;
+    width: 50%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+  }
 }
 .card-content {
   margin: 20px;
@@ -44,15 +73,31 @@ p {
   flex-direction: column;
   gap: 17px;
 }
+@media screen and (min-width: 1024px) {
+  .card-content {
+    padding: 25px;
+    gap: 25px;
+  }
+}
 .card-content-perfume-text {
   font-size: 0.9rem;
   font-weight: bold;
   opacity: 0.5;
 }
+@media screen and (min-width: 1024px) {
+  .card-content-perfume-text {
+    font-size: 1.2rem;
+  }
+}
 .card-content h1 {
   font-size: "Fraunces";
   font-family: "Fraunces";
   font-size: 2.2rem;
+}
+@media screen and (min-width: 1024px) {
+  .card-content h1 {
+    font-size: 3rem;
+  }
 }
 .card-content-prices {
   display: flex;
@@ -65,12 +110,17 @@ p {
   font-size: 2rem;
   font-weight: bolder;
 }
+@media screen and (min-width: 1024px) {
+  .card-content-prices .preco-discount {
+    font-size: 2.6rem;
+  }
+}
 .card-content-prices .preco-original {
   font-family: "Montserrat";
   font-size: 1rem;
   color: hsl(212, 21%, 14%);
   text-decoration: line-through;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 .card-content .btn-add-to-cart {
   padding: 15px;
@@ -83,6 +133,16 @@ p {
   justify-content: center;
   gap: 10px;
   font-weight: bold;
+  transition: 0.5s;
+}
+.card-content .btn-add-to-cart:hover {
+  background-color: rgb(26, 64, 49);
+  cursor: pointer;
+}
+@media screen and (min-width: 1024px) {
+  .card-content .btn-add-to-cart {
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
