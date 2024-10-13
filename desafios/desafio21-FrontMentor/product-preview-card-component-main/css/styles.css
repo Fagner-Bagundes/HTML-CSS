@@ -9,6 +9,11 @@
 
 body {
   background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -21,7 +26,7 @@ p {
 }
 
 .card {
-  margin: 20px;
+  margin: 25px;
   display: flex;
   flex-direction: column;
   border-radius: 15px;
@@ -36,7 +41,7 @@ p {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 17px;
 }
 .card-content-perfume-text {
   font-size: 0.9rem;
@@ -65,6 +70,18 @@ p {
   color: hsl(212, 21%, 14%);
   text-decoration: line-through;
   opacity: 0.5;
+}
+.card-content .btn-add-to-cart {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
