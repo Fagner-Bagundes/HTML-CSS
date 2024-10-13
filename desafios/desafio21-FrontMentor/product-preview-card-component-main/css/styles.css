@@ -7,17 +7,46 @@
   text-decoration: none;
 }
 
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: hsl(212, 21%, 14%);
+  line-height: 1.5;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
 .card {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  background-color: green;
   border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
 }
-.card .image {
+.card-image {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
+}
+.card-content {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card-content-perfume-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.card-content h1 {
+  font-size: "Fraunces";
+  font-family: "Fraunces";
+  font-size: 2.2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

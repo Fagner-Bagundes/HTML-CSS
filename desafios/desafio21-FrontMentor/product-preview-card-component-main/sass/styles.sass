@@ -4,16 +4,16 @@
 
     
 // Color-Primary
-$Darkcyan: hsl(158, 36%, 37%)
-$Cream: hsl(30, 38%, 92%)
+$darkcyan: hsl(158, 36%, 37%)
+$cream: hsl(30, 38%, 92%)
 // Color-Neutral
 $Very-dark-blue: hsl(212, 21%, 14%)
-$Dark-grayish-blue: hsl(228, 12%, 48%)
-$White: hsl(0, 0%, 100%)
+$dark-grayish-blue: hsl(228, 12%, 48%)
+$white: hsl(0, 0%, 100%)
 // font
-$Font-size-paragraph: 14px
-$Font-basic: 'Montserrat'
-$Font-title: 'Fraunces'
+$font-size-paragraph: 1rem
+$font-basic: 'Montserrat'
+$font-title: 'Fraunces'
   
 *
     margin: 0
@@ -21,14 +21,44 @@ $Font-title: 'Fraunces'
     box-sizing: border-box
     text-decoration: none
 
+body
+    background-color: $cream
+
+p
+    font-family: $font-basic
+    font-size: $font-size-paragraph
+    color: $Very-dark-blue
+    line-height: 1.5
+    font-weight: 500
+    opacity: .9
+
+
 .card
     margin: 20px
     display: flex
     flex-direction: column
-    background-color: green
     border-radius: 15px
+    background-color: $white
 
-    .image
+
+    
+    &-image
         border-top-left-radius: 15px
         border-top-right-radius: 15px
         width: 100%
+
+    &-content
+        margin: 20px
+        display: flex
+        flex-direction: column
+        gap: 15px
+
+        &-perfume-text
+            font-size: .9rem
+            font-weight: bold
+            opacity: 0.5
+        h1
+            font-size: $font-title
+            font-family: 'Fraunces'
+            font-size: 2.2rem
+
