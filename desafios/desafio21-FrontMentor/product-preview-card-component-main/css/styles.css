@@ -9,11 +9,10 @@
 
 body {
   background-color: hsl(30, 38%, 92%);
-  height: 100vh;
-  width: 100vw;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 p {
@@ -31,6 +30,8 @@ p {
   flex-direction: column;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
+  max-width: 515px;
+  padding-bottom: 15px;
 }
 .card-image {
   border-top-left-radius: 15px;
