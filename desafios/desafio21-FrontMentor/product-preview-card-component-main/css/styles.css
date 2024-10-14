@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: hsl(212, 21%, 14%);
+  line-height: 1.5;
+  font-weight: 500;
+  opacity: 0.9;
+}
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+.card {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 515px;
+  padding-bottom: 15px;
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    flex-direction: row;
+    max-width: 700px;
+    padding-bottom: 0px;
+    height: 505px;
+  }
+}
+.card-image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .card-image-mobile {
+    display: none;
+  }
+}
+.card-image-pc {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .card-image-pc {
+    display: block;
+    width: 50%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+  }
+}
+.card-content {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+@media screen and (min-width: 1024px) {
+  .card-content {
+    padding: 10px;
+    gap: 15px;
+  }
+}
+.card-content-perfume-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+@media screen and (min-width: 1024px) {
+  .card-content-perfume-text {
+    font-size: 1rem;
+  }
+}
+.card-content h1 {
+  font-size: "Fraunces";
+  font-family: "Fraunces";
+  font-size: 2.2rem;
+}
+@media screen and (min-width: 1024px) {
+  .card-content h1 {
+    font-size: 2.6rem;
+  }
+}
+.card-content-prices {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.card-content-prices .preco-discount {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces";
+  font-size: 2rem;
+  font-weight: bolder;
+}
+@media screen and (min-width: 1024px) {
+  .card-content-prices .preco-discount {
+    font-size: 2.6rem;
+  }
+}
+.card-content-prices .preco-original {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: hsl(212, 21%, 14%);
+  text-decoration: line-through;
+  opacity: 0.9;
+}
+.card-content .btn-add-to-cart {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.card-content .btn-add-to-cart:hover {
+  background-color: rgb(26, 64, 49);
+  cursor: pointer;
+}
+@media screen and (min-width: 1024px) {
+  .card-content .btn-add-to-cart {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
