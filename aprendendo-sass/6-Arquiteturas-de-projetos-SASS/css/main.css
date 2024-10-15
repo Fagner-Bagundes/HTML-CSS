@@ -21,4 +21,33 @@ p {
   background-color: #ddd;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar {
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 15px;
+}
+#navbar ul {
+  display: flex;
+  justify-content: end;
+}
+#navbar li {
+  margin: 0 10px;
+}
+#navbar li a {
+  color: #fff;
+  transition: 0.5;
+}
+#navbar li a:hover {
+  color: #ddd;
+}
+
 /*# sourceMappingURL=main.css.map */
