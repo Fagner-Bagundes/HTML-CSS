@@ -23,4 +23,24 @@ h2 {
   font-size: "30px";
 }
 
+h3 {
+  font-weight: 900;
+}
+
+.p-key {
+  font-weight: 300;
+}
+
+.p-key {
+  font-weight: 700;
+}
+
+.p-key {
+  font-weight: 900;
+}
+
+p {
+  color: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */

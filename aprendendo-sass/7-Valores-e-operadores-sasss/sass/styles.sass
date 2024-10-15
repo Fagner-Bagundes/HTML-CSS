@@ -1,3 +1,5 @@
+@use 'sass:map'
+    
 $a: 10
 
 @debug $a
@@ -44,6 +46,33 @@ $list: 10, 20, 30
 @each $font in $list
     .p-#{$font}
         font-size: $font + "px"
+
+$font-weights: ("regular": 300, "bold":700, "black": 900)
+
+h3
+    font-weight: map-get($font-weights, "black" )
+
+@each $key, $value in $font-weights
+    .p-#{key}
+        font-weight: $value
+
+@debug true
+@debug false
+
+$verdadeiro: true
+
+@debug $verdadeiro
+
+@debug 10 > 2
+@debug 2 > 10
+
+@if 10 < 2
+    p
+        color: red
+@else 
+    p
+       color: blue
+
      
      
 
