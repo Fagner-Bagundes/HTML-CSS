@@ -6,4 +6,8 @@ h1 {
   font-family: "Open Teste";
 }
 
+h2 {
+  display: hidden;
+}
+
 /*# sourceMappingURL=styles.css.map */
