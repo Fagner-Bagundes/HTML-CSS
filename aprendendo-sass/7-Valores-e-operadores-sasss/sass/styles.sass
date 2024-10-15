@@ -73,6 +73,25 @@ $verdadeiro: true
     p
        color: blue
 
+@debug "________________________________________"
+@debug "Helvatica" == Helvatica
+@debug 100px == 100rem
+@debug 50px != 60px
+
+$x: 20
+
+@if $x != 12
+    h1
+        font-size: $x + px
+
+
+@debug 10> 10
+@debug 10 >= 10
+@debug 10 == 10
+@debug 10 != 10
+@debug 10 < 20
+@debug 50 <= 20
+
      
      
 
