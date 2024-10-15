@@ -1,4 +1,24 @@
-$a: 10px
+$a: 10
 
 @debug $a
-// @debug $a + 10%
+@debug $a + 10%
+
+$str: "Roboto"
+$str2: Roboto
+
+@debug $str == $str2
+
+$nome-da-font: "Open"
+$var1: "Sans"
+$var2: "Teste"
+
+@debug $nome-da-font + " " + $var1
+@debug $nome-da-font + " " + $var2
+
+p
+    font-family: $nome-da-font + " " $var1
+
+h1
+    font-family: "#{$nome-da-font} #{$var2}"
+
+ 
