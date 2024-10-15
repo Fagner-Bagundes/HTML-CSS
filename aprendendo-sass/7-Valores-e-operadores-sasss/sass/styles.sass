@@ -35,4 +35,16 @@ h2
 @debug rgba(123, 231, 144, 0.8)
 @debug hsl(34, 50%, 92%)
 
+
+$list: 10, 20, 30
+
+@each $value in $list
+    @debug $value + 1
+
+@each $font in $list
+    .p-#{$font}
+        font-size: $font + "px"
+     
+     
+
  
