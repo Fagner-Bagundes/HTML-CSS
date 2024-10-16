@@ -3,6 +3,7 @@
 @use 'sass:map'
 @use 'sass:math'
 @use 'sass:meta'
+@use 'sass:string'
 
 $color-adjust: color.adjust(#6b717f, $red: 25)
 $color-adjust2: color.adjust(#6b717f, $red: 25, $blue: 200)
@@ -116,6 +117,16 @@ $NS: 10, 20, 100, 5
 @debug meta.mixin-exists("test")
 
 $listatest: 10 20 30 40
-@debug meta.type-of(#FFF)
+@debug meta.type-of(#FFF )
 
 
+$frase: "o ratO roeu a Roupa do rei de Roma"
+
+@debug string.index($frase, rato)
+@debug string.length($frase)
+
+@debug string.to-lower-case($frase)
+@debug string.to-upper-case($frase)
+
+@debug string.unique-id()
+@debug string.unique-id()
