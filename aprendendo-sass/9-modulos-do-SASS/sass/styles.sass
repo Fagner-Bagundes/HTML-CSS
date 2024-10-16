@@ -42,10 +42,26 @@ $vList2: list.index($list, 40px)
 $addList: list.append($list, 50px)
 $addList2: list.append($list, 40px)
 
-@if $vList == null
-    @debug $addList
-@else if $vList2 == null
-    @debug $addList2
+// @if $vList == null
+//     @debug $addList
+// @else if $vList2 == null
+//     @debug $addList2
 
-@debug $list
+// @debug $list
+
+$lista-1: blue, red, 20%
+$lista-2: purple, 20px, 30px
+
+$unir-listas: list.join($lista-1, $lista-2)
+
+@debug $unir-listas
+
+$lista-3: 10, 20, 30, red, color, green
+
+@debug list.length($lista-3)
+
+$lista-4: 10px, 20px 10px
+
+
+@debug list.nth($lista-3, 2)
 
