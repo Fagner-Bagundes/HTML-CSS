@@ -1,6 +1,7 @@
 @use 'sass:color'
 @use 'sass:list'
 @use 'sass:map'
+@use 'sass:math'
 
 $color-adjust: color.adjust(#6b717f, $red: 25)
 $color-adjust2: color.adjust(#6b717f, $red: 25, $blue: 200)
@@ -87,4 +88,19 @@ h1
         
 h1:hover
     background-color: $color-invert
+
+$pi: math.$pi
+
+@debug $pi
             
+$z: 3.5
+
+@debug math.ceil($z)
+@debug math.floor($z)
+
+$NS: 10, 20, 100, 5
+
+@debug math.max($NS...)
+@debug math.min($NS...)
+
+@debug math.random(30)
