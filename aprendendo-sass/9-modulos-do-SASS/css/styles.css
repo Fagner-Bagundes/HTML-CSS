@@ -15,4 +15,17 @@
   background-color: rgb(73.8, 85.2, 0);
 }
 
+.color-5 {
+  color: blue;
+  background-color: rgb(127.5, 0, 127.5);
+}
+
+.color-6 {
+  background-color: rgba(149.6, 151.3, 156.4, 0.2666666667);
+}
+
+.color-7 {
+  background-color: #ff6666;
+}
+
 /*# sourceMappingURL=styles.css.map */

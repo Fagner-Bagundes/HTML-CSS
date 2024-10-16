@@ -1,4 +1,5 @@
 @use 'sass:color'
+@use 'sass:list'
 
 $color-adjust: color.adjust(#6b717f, $red: 25)
 $color-adjust2: color.adjust(#6b717f, $red: 25, $blue: 200)
@@ -22,3 +23,29 @@ $color-scale2: color.scale($color-adjust2, $lightness: +40%)
 $color-invert: color.invert($color-scale2)
 .color-4
     background-color: $color-invert
+
+.color-5
+    color: blue
+    background-color: color.mix(blue, red)
+
+.color-6
+    background-color: desaturate(#78b4, 30%)
+
+.color-7
+    background-color: lighten(red, 20% )
+
+$list: 10px, 20px, 30px, 50px
+
+$vList: list.index($list, 50px)
+$vList2: list.index($list, 40px)
+
+$addList: list.append($list, 50px)
+$addList2: list.append($list, 40px)
+
+@if $vList == null
+    @debug $addList
+@else if $vList2 == null
+    @debug $addList2
+
+@debug $list
+
