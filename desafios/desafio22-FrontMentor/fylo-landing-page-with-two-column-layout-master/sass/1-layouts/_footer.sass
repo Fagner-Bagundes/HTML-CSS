@@ -1,0 +1,51 @@
+@use '../0-base/_variables' as v
+@use '../0-base/_base-mixins' as b-m
+@use 'sass:color'
+
+footer
+    background-color: v.$VeryDarkBlue
+    color: #fff
+    padding: 50px
+
+    .contacts
+
+        img
+            width: 150px
+            color: #fff
+            margin-bottom: 30px
+
+        .contact
+            display: flex
+            flex-direction: column
+            margin-bottom: 30px
+            a
+                color: white
+                position: relative
+                margin-left: 30px
+                margin-bottom: 20px
+
+                img
+                    position: absolute
+                    width: 1.3rem
+                    left: -32px
+
+    .more
+        display: flex
+        flex-direction: column
+        gap: 3rem
+
+        div>p
+            line-height: 2
+
+    .social-media
+        align-self: center
+        justify-self: center
+        text-align: center
+
+        i
+            font-size: .8rem
+            margin-right: .5rem
+            margin-top: 25px
+            border: solid 1px #fff
+            padding: 8px
+            border-radius: 50%

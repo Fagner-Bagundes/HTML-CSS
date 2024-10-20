@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
-  <link rel="stylesheet" href="css/app.css">
+  
 
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +17,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS do projeto -->
+  <link rel="stylesheet" href="css/app.css">
 
 </head>
 <body>
@@ -107,30 +112,35 @@
   <footer>
     <div class="contacts">
       <img src="img/logo.svg" alt="logo-fylo">
-      <div>Phone: +1-543-123-4567</div>
-      <div>example@fylo.com</div>
+
+      <div class="contact">
+        <a href="#"><img src="img/icon-phone.svg" alt="phone-icon"> Phone: +1-543-123-4567</a>
+        <a href="mailto:example@fylo.com"><img src="img/icon-email.svg" alt=""> example@fylo.com</a>
+      </div>
     </div>
     
 
     <nav class="more">
 
-      <p class="hero-1">
-        About Us
-        Jobs
-        Press
-        Blog
-      </p>
+      <div class="hero">
+        <p>About Us</p>
+        <p>Jobs</p>
+        <p>Press</p>
+        <p>Blog</p>
+      </div>
 
-      <p class="hero-2">
-        Contact Us
-        Terms
-        Privacy
-      </p>
+      <div class="hero">
+        <p>Contact Us</p>
+        <p>Terms</p>
+        <p>Privacy</p>
+      </div>
 
     </nav>
 
     <div class="social-media">
-      
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
     </div>
   </footer>
 
