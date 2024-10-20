@@ -115,6 +115,8 @@ header a:hover {
 }
 .section2-content p {
   color: hsl(238, 22%, 44%);
+  padding-inline: 17px;
+  text-align: start;
 }
 .section2-content a {
   align-self: center;
