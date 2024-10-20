@@ -1,6 +1,7 @@
 @use '../0-base/_variables' as v
 @use '../0-base/_base-mixins' as b-m
 @use '../2-modules/modules-mixins'
+@use 'sass:color'
 .section1
     display: flex
     flex-direction: column-reverse
@@ -28,9 +29,8 @@
             gap: 1rem
 
             #e-mail
-                padding: 11px 15px
-                border-radius: 3px
-                border: solid 1px #0000007b
+                @include modules-mixins.e-mail
+                
 
             .btn
                 @include modules-mixins.button

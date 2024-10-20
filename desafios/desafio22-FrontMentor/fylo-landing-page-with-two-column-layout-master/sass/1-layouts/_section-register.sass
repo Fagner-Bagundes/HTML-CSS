@@ -1,0 +1,31 @@
+@use '../0-base/_variables' as v
+@use '../0-base/_base-mixins' as b-m
+@use 'sass:color'
+@use '../2-modules/modules-mixins'
+
+.register-container
+    background-color: v.$DesaturatedBlue
+    color: #fff
+    padding: 50px
+    text-align: center
+
+    h2
+        margin-bottom: 25px
+        font-size: 1.2rem
+
+    p
+        margin-bottom: 25px
+        font-size: 13.5px
+
+    &-register
+        display: flex
+        flex-direction: column
+        gap: .5rem
+
+        #e-mail
+           @include modules-mixins.e-mail
+           
+        .btn
+            @include modules-mixins.button
+            font-size: .7rem
+            
