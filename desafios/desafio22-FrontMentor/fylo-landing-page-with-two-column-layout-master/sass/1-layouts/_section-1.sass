@@ -1,0 +1,41 @@
+@use '../0-base/_variables' as v
+@use '../0-base/_base-mixins' as b-m
+@use '../2-modules/modules-mixins'
+.section1
+    display: flex
+    flex-direction: column-reverse
+    padding: 90px 25px
+    align-items: center
+    justify-content: center
+    text-align: center
+    &-content
+        display: flex
+        flex-direction: column
+        gap: 2rem
+        color: v.$VeryDarkBlue
+
+        padding: 0 5px
+
+        h1
+            font-size: 1.6rem
+        p
+            font-size: .9rem
+
+        .login-area
+            display: flex
+            flex-direction: column
+            gap: 1rem
+
+            #e-mail
+                padding: 11px 15px
+                border-radius: 3px
+                border: solid 1px #0000007b
+
+            .btn
+                @include modules-mixins.button
+                
+
+        
+    img
+        width: 85%
+        margin-bottom: 2rem

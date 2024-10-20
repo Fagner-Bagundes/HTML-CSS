@@ -1,0 +1,17 @@
+@use '../0-base/_variables' as v
+@use '../0-base/_base-mixins' as b-m
+@use 'sass:color'
+
+@mixin button 
+    padding: 10px
+    background-color: v.$BrightBlue
+    border: none
+    color: white
+    border-radius: 3px
+    font-weight: bold
+    box-shadow: 0px 1px 3px  #00000080
+    width: 100%
+
+    &:hover
+        background-color: lighten(v.$BrightBlue, $amount: 10%)
+    
