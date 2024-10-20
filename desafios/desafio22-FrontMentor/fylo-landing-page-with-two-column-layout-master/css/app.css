@@ -152,12 +152,12 @@ header a:hover {
   font-weight: bold;
 }
 .section2-content .card .profile-container {
-  background-color: #838080;
   display: flex;
 }
 .section2-content .card img {
   width: 15%;
   border-radius: 50%;
+  margin-right: 5%;
 }
 .section2-content .card .profile-container-profile p {
   color: hsl(243, 87%, 12%);
