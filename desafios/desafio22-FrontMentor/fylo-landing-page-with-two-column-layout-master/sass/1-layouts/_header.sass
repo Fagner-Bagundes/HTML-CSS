@@ -1,0 +1,24 @@
+@use '../0-base/_variables' as v
+@use '../0-base/_base-mixins' as b-m
+
+header
+    display: flex
+    justify-content: space-between
+    padding: 25px
+    font-family: v.$font-header
+    font-size: .8rem
+    align-items: center
+
+
+    img
+        width: 5rem
+    
+    nav
+        display: flex
+        gap: 25px
+    a
+        color: v.$DesaturatedBlue
+        font-weight: bold
+
+    a:hover
+        color: v.$VeryDarkBlue

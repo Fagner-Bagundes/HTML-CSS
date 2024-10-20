@@ -6,6 +6,7 @@
 
 html {
   font-size: 16px;
+  font-family: "Open Sans";
 }
 
 a {
@@ -15,6 +16,29 @@ a {
 
 ul {
   list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-family: "Raleway";
+  font-size: 0.8rem;
+  align-items: center;
+}
+header img {
+  width: 5rem;
+}
+header nav {
+  display: flex;
+  gap: 25px;
+}
+header a {
+  color: hsl(238, 22%, 44%);
+  font-weight: bold;
+}
+header a:hover {
+  color: hsl(243, 87%, 12%);
 }
 
 /*# sourceMappingURL=app.css.map */
