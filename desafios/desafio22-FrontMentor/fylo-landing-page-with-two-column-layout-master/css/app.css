@@ -60,6 +60,15 @@ header a:hover {
     padding-inline: 15%;
   }
 }
+@media (min-width: 1024px) {
+  .section1 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-inline: 5%;
+    gap: 4rem;
+  }
+}
 .section1-content {
   display: flex;
   flex-direction: column;
@@ -107,6 +116,11 @@ header a:hover {
 .section1 .ilunstration1 {
   width: 85%;
   margin-bottom: 2rem;
+}
+@media (min-width: 1024px) {
+  .section1 .ilunstration1 {
+    width: 50%;
+  }
 }
 
 .section2 {
