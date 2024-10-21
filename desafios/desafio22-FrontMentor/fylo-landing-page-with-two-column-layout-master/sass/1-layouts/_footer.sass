@@ -7,6 +7,11 @@ footer
     color: #fff
     padding: 50px
 
+    @include b-m.tablet
+        display: flex
+        justify-content: space-between
+        padding: 10%
+
     .contacts
 
         img
@@ -33,9 +38,14 @@ footer
         display: flex
         flex-direction: column
         gap: 3rem
+        margin-top: 10%
+
+        @include b-m.tablet
+        flex-direction: row
 
         div>p
             line-height: 2
+            
 
     .social-media
         align-self: center
