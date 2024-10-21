@@ -120,19 +120,47 @@ header a:hover {
     padding-inline: 15%;
   }
 }
+@media (min-width: 1024px) {
+  .section2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-inline: 5%;
+    gap: 4rem;
+  }
+}
 .section2-content {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
+@media (min-width: 1024px) {
+  .section2-content {
+    text-align: start;
+    max-width: 900px;
+  }
+}
 .section2-content h1 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 2.5rem;
+}
+@media (min-width: 1024px) {
+  .section2-content h1 {
+    text-align: start;
+  }
 }
 .section2-content p {
   color: hsl(238, 22%, 44%);
   padding-inline: 17px;
   text-align: start;
+}
+@media (min-width: 1024px) {
+  .section2-content p {
+    text-align: start;
+    padding: 0;
+    max-width: 550px;
+    color: black;
+  }
 }
 .section2-content a {
   align-self: center;
@@ -142,6 +170,11 @@ header a:hover {
   border-bottom: solid 2px hsl(170, 45%, 43%);
   position: relative;
   padding-right: 27px;
+}
+@media (min-width: 1024px) {
+  .section2-content a {
+    align-self: start;
+  }
 }
 .section2-content a img {
   width: 1.3rem;
@@ -159,6 +192,12 @@ header a:hover {
   width: 80%;
   box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.1019607843);
   margin-block: 25px 100px;
+}
+@media (min-width: 1024px) {
+  .section2-content .card {
+    align-self: start;
+    max-width: 305px;
+  }
 }
 .section2-content .card .card-quote {
   width: 5%;
@@ -188,6 +227,11 @@ header a:hover {
 .section2 .ilunstration2 {
   width: 85%;
   margin-bottom: 5rem;
+}
+@media (min-width: 1024px) {
+  .section2 .ilunstration2 {
+    width: 50%;
+  }
 }
 
 .register-container {

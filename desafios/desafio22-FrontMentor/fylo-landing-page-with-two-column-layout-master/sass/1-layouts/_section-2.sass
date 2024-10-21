@@ -10,20 +10,40 @@
 
     @include b-m.tablet
         padding-inline: 15%
+    
+    @include b-m.desktop
+        flex-direction: row
+        align-items: center
+        justify-content: start
+        padding-inline: 5%
+        gap: 4rem
 
     &-content
         display: flex
         flex-direction: column
         gap: 25px
+        @include b-m.desktop
+            text-align: start
+            max-width: 900px
 
         h1
             text-align: center
-            font-size: 1rem
+            font-size: 2.5rem
+
+            @include b-m.desktop
+                text-align: start
 
         p
             color: v.$DesaturatedBlue
             padding-inline: 17px
             text-align: start
+
+            @include b-m.desktop
+                text-align: start
+                padding: 0
+                max-width: 550px
+                color: black
+        
 
         a
             align-self: center
@@ -33,6 +53,9 @@
             border-bottom: solid 2px v.$ModerateCyan
             position: relative
             padding-right: 27px
+
+            @include b-m.desktop
+                align-self: start
             img
                 width: 1.3rem
                 position: absolute
@@ -49,6 +72,10 @@
             width: 80%
             box-shadow: 0px 0px 7px 2px  #0000001a
             margin-block: 25px 100px
+
+            @include b-m.desktop
+                align-self: start
+                max-width: 305px
 
             .card-quote
                 width: 5%
@@ -82,3 +109,6 @@
     .ilunstration2
         width: 85%
         margin-bottom: 5rem
+
+        @include b-m.desktop
+            width: 50%
