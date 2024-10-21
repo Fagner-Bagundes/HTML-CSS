@@ -254,6 +254,13 @@ footer {
     padding: 10%;
   }
 }
+@media (min-width: 1024px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+  }
+}
 footer .contacts img {
   width: 150px;
   color: #fff;
@@ -280,7 +287,17 @@ footer .more {
   flex-direction: column;
   gap: 3rem;
   margin-top: 10%;
-  flex-direction: row;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  footer .more {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  footer .more {
+    flex-direction: row;
+    gap: 10rem;
+  }
 }
 footer .more div > p {
   line-height: 2;

@@ -12,6 +12,11 @@ footer
         justify-content: space-between
         padding: 10%
 
+    @include b-m.desktop
+        display: flex
+        justify-content: space-between
+        padding: 10%
+
     .contacts
 
         img
@@ -41,7 +46,11 @@ footer
         margin-top: 10%
 
         @include b-m.tablet
-        flex-direction: row
+            flex-direction: row
+
+        @include b-m.desktop
+            flex-direction: row
+            gap: 10rem
 
         div>p
             line-height: 2
