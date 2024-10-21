@@ -30,10 +30,25 @@
 
         padding: 0 5px
 
+        @include b-m.desktop
+            text-align: start
+            max-width: 900px
+
         h1
             font-size: 1.6rem
+
+            @include b-m.desktop
+                text-align: start
+                font-size: 2.2rem
         p
             font-size: .9rem
+
+            @include b-m.desktop
+                text-align: start
+                padding: 0
+                max-width: 500px
+                color: black
+                font-size: 1rem
 
         .login-area
             display: flex
@@ -42,12 +57,19 @@
             width: 100%
             align-items: center
 
+            @include b-m.desktop
+                flex-direction: row
+
             #e-mail
                 @include modules-mixins.e-mail
+                width: 45%
                 
 
             .btn
                 @include modules-mixins.button
+                @include b-m.desktop
+                max-width: 170px
+                    
                 
 
         
