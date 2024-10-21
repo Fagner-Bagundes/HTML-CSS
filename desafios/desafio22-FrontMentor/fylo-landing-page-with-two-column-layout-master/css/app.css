@@ -30,8 +30,18 @@ header {
   font-size: 0.8rem;
   align-items: center;
 }
+@media (min-width: 1024px) {
+  header {
+    padding: 50px;
+  }
+}
 header img {
   width: 5rem;
+}
+@media (min-width: 1024px) {
+  header img {
+    width: 6rem;
+  }
 }
 header nav {
   display: flex;
@@ -40,6 +50,11 @@ header nav {
 header a {
   color: hsl(238, 22%, 44%);
   font-weight: bold;
+}
+@media (min-width: 1024px) {
+  header a {
+    font-size: 1.2rem;
+  }
 }
 header a:hover {
   color: hsl(243, 87%, 12%);

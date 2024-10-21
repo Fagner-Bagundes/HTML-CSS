@@ -11,9 +11,15 @@ header
     font-size: .8rem
     align-items: center
 
+    @include b-m.desktop
+        padding: 50px
+
 
     img
         width: 5rem
+
+        @include b-m.desktop
+            width: 6rem
     
     nav
         display: flex
@@ -21,6 +27,9 @@ header
     a
         color: v.$DesaturatedBlue
         font-weight: bold
+
+        @include b-m.desktop
+            font-size: 1.2rem
 
     a:hover
         color: v.$VeryDarkBlue
