@@ -202,19 +202,55 @@ header a:hover {
     padding-inline: 15%;
   }
 }
-.register-container h2 {
+@media (min-width: 1024px) {
+  .register-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .register-container-content {
+    width: 100%;
+    text-align: start;
+  }
+}
+.register-container-content h2 {
   margin-bottom: 25px;
   font-size: 1.2rem;
 }
-.register-container p {
+@media (min-width: 1024px) {
+  .register-container-content h2 {
+    font-size: 2rem;
+  }
+}
+.register-container-content p {
   margin-bottom: 25px;
   font-size: 13.5px;
+  color: hsl(0, 0%, 75%);
+}
+@media (min-width: 1024px) {
+  .register-container-content p {
+    font-size: 1.2rem;
+  }
 }
 .register-container-register {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
+}
+@media (min-width: 1024px) {
+  .register-container-register {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .register-container-register {
+    width: 80%;
+    margin-right: 4rem;
+  }
 }
 .register-container-register #e-mail {
   padding: 10px 15px;
@@ -240,6 +276,13 @@ header a:hover {
 }
 .register-container-register .btn:hover {
   background-color: hsl(224, 93%, 68%);
+}
+@media (min-width: 1024px) {
+  .register-container-register .btn {
+    width: 30%;
+    min-width: 130px;
+    align-self: start;
+  }
 }
 
 footer {

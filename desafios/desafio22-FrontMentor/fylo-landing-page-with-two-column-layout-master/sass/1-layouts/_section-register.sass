@@ -13,13 +13,31 @@
     @include b-m.tablet
         padding-inline: 15%
 
-    h2
-        margin-bottom: 25px
-        font-size: 1.2rem
+    @include b-m.desktop
+        display: flex
+        flex-direction: row
+        gap: 15%
+        align-items: center
+        
 
-    p
-        margin-bottom: 25px
-        font-size: 13.5px
+    &-content
+        @include b-m.desktop
+            width: 100%
+            text-align: start
+        h2
+            margin-bottom: 25px
+            font-size: 1.2rem
+            @include b-m.desktop
+                font-size: 2rem
+
+        p
+            margin-bottom: 25px
+            font-size: 13.5px
+
+            color: v.$LightGray
+            @include b-m.desktop
+                font-size: 1.2rem
+            
 
     &-register
         display: flex
@@ -27,10 +45,23 @@
         gap: .5rem
         align-items: center
 
+        @include b-m.desktop
+            width: 100%
+
+        @include b-m.desktop
+            width: 80%
+
+            margin-right: 4rem
         #e-mail
            @include modules-mixins.e-mail
+
            
         .btn
             @include modules-mixins.button
             font-size: .7rem
+
+            @include b-m.desktop
+                width: 30%
+                min-width: 130px
+                align-self: start
             
