@@ -82,6 +82,7 @@ header a:hover {
     justify-content: start;
     padding-inline: 5%;
     gap: 4rem;
+    max-width: 2000px;
   }
 }
 .section1-content {
@@ -163,6 +164,7 @@ header a:hover {
 @media (min-width: 1024px) {
   .section1 .ilunstration1 {
     width: 50%;
+    max-width: 700px;
   }
 }
 
@@ -184,6 +186,7 @@ header a:hover {
     justify-content: start;
     padding-inline: 5%;
     gap: 4rem;
+    max-width: 2000px;
   }
 }
 .section2-content {
@@ -288,6 +291,7 @@ header a:hover {
 @media (min-width: 1024px) {
   .section2 .ilunstration2 {
     width: 50%;
+    max-width: 700px;
   }
 }
 
