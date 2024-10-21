@@ -156,6 +156,7 @@ header a:hover {
 }
 .section1-content .login-area .btn:hover {
   background-color: hsl(224, 93%, 68%);
+  cursor: pointer;
 }
 .section1 .ilunstration1 {
   width: 85%;
@@ -367,6 +368,11 @@ header a:hover {
 .register-container-register #e-mail::placeholder {
   color: #cccccc;
 }
+@media (min-width: 1024px) {
+  .register-container-register #e-mail {
+    align-self: start;
+  }
+}
 .register-container-register .btn {
   padding: 10px;
   background-color: hsl(224, 93%, 58%);
@@ -381,6 +387,7 @@ header a:hover {
 }
 .register-container-register .btn:hover {
   background-color: hsl(224, 93%, 68%);
+  cursor: pointer;
 }
 @media (min-width: 1024px) {
   .register-container-register .btn {
@@ -447,15 +454,23 @@ footer .more {
     gap: 10rem;
   }
 }
-footer .more div > p {
+footer .more div {
+  display: flex;
+  flex-direction: column;
+}
+footer .more div a {
   line-height: 2;
+  color: #fff;
 }
 footer .social-media {
   align-self: center;
   justify-self: center;
   text-align: center;
 }
-footer .social-media i {
+footer .social-media a {
+  color: #fff;
+}
+footer .social-media a i {
   font-size: 0.8rem;
   margin-right: 0.5rem;
   margin-top: 25px;
