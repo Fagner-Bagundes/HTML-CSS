@@ -1,6 +1,6 @@
 @use '../0-base/_variables' as v
 @use '../0-base/_base-mixins' as b-m
-@use '../2-modules/modules-mixins'
+@use '../2-modules/modules-mixins' as m-m
 @use 'sass:color'
 .section1
     display: flex
@@ -60,13 +60,16 @@
             @include b-m.desktop
                 flex-direction: row
 
-            #e-mail
-                @include modules-mixins.e-mail
-                    width: 45%
+            #e-mail-1
+                    @include m-m.e-mail
+                    
+                    @include b-m.desktop
+                        width: 45%
                 
 
             .btn
-                @include modules-mixins.button
+                @include m-m.button
+                
                 @include b-m.desktop
                     max-width: 170px
                     

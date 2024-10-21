@@ -1,7 +1,7 @@
 @use '../0-base/_variables' as v
 @use '../0-base/_base-mixins' as b-m
 @use 'sass:color'
-@use '../2-modules/modules-mixins'
+@use '../2-modules/modules-mixins' as m-m
 
 .register-container
     background-color: v.$DesaturatedBlue
@@ -52,15 +52,18 @@
             width: 80%
 
             margin-right: 4rem
-        #e-mail
-           @include modules-mixins.e-mail
+        #e-mail-2
+           @include m-m.e-mail
+           
+
            @include b-m.desktop
                 align-self: start
 
            
         .btn
-            @include modules-mixins.button
             font-size: .7rem
+            @include m-m.button
+            
 
             @include b-m.desktop
                 width: 30%
