@@ -23,9 +23,28 @@
     background-color: #333;
     padding: 15px;
     display: grid;
-    grid-template: 200px 100px 300px / 1fr 1fr
+    grid-template-areas: 
+    'sidebar header header'
+    'sidebar content1 advert'
+    'sidebar footer footer'
+    ;
 }
 
+.header{
+    grid-area: header;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.content1{
+    grid-area: content1;
+}
+.advert{
+    grid-area: advert;
+}
+.footer{
+    grid-area: footer;
+}
 .container>div{
     background-color: #ccc;
     padding: 20px;
