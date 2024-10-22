@@ -23,6 +23,7 @@
     background-color: #333;
     padding: 15px;
     display: grid;
+    grid-template: 200px 100px 300px / 1fr 1fr
 }
 
 .container>div{
