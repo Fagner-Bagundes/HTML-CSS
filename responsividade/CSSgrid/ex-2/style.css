@@ -31,7 +31,7 @@
     /* justify-content: space-evenly; */
     justify-content: center;
     align-content: center;
-    justify-items: center;
+    /* justify-items: center; */
     
 }
 .container>div{
@@ -41,20 +41,25 @@
 } 
 
 .header{
-    justify-items: start;
+    grid-column: 1/4;
 }
 .sidebar{
-   justify-items: end;
+   grid-row: 2/4;
 }
 .content1{
-    justify-items: center;
+   
 }
 .advert{
 
 }
-.footer{
 
-}
 .div{
 
+}
+.div2{
+
+}
+.footer{
+    grid-column: 1/4;
+    grid-row: 4;
 }
