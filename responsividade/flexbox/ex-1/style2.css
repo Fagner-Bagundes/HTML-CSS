@@ -6,20 +6,27 @@
 
 .flex-item{
     background-color: pink;
-    
+    height: 30%;
+    width: 30%;
 
+}
+
+.item12{
+    flex-shrink: 20;
+    
 }
 
 .flex-countainer{
     align-items: start;
+    padding: 20px;
     
-    height: 50vh;
-    background-color: yellow;
+    height: 50%;
+    background-color: lightblue;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 5px;
     
     
 }
