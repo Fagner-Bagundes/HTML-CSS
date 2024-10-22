@@ -41,23 +41,28 @@
 } 
 
 .header{
+    align-self: center;
+    justify-content: end;
     grid-column: 1/4;
 }
 .sidebar{
    grid-row: 2/4;
 }
 .content1{
-   
+   justify-self: center;
+   align-self: center;
 }
 .advert{
-
+    align-self: start;
+    justify-self: end;
 }
 
 .div{
-
+    align-self: center;
+    justify-content: end;
 }
 .div2{
-
+    
 }
 .footer{
     grid-column: 1/4;
