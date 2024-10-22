@@ -29,6 +29,9 @@
     /* justify-content: center; */
     /* justify-content: space-between; */
     /* justify-content: space-evenly; */
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
     
 }
 .container>div{
@@ -38,13 +41,13 @@
 } 
 
 .header{
-    align-content: center;
+    justify-items: start;
 }
 .sidebar{
-    align-content: start;
+   justify-items: end;
 }
 .content1{
-    align-content: end;
+    justify-items: center;
 }
 .advert{
 
