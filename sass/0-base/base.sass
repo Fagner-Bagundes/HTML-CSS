@@ -1,0 +1,9 @@
+@use 'reset'
+@use 'variables'
+@use 'base-mixins' as b-m
+
+body
+    @include b-m.tablet
+        background-color: red 
+    @include b-m.desktop
+        background-color: blue 
