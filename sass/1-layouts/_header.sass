@@ -1,8 +1,9 @@
 @use '../0-base/base-mixins' as b-m
-@use '../0-base/variables' as v
+@use '../0-base/_variables' as v
+@use 'sass:color'
 
 header
-    background-color: black
+    background-color: v.$body
     width: 100%
     display: flex
     justify-content: space-between
@@ -15,5 +16,5 @@ header
     nav
         a
             margin-right: 10px
-            color: v.$rose
-            font-weight: bold
+            color: v.$links
+            padding: 5px

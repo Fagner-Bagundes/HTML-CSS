@@ -1,22 +1,21 @@
-@use '../0-base/variables' as v
+@use '../0-base/_variables' as v
 @use '../0-base/base-mixins' as b-m
 
 .apresentation
-    background-color: #000
     display: flex
     flex-direction: column
     gap: 10px
     text-align: center
-    padding: 50px 20px
+    padding: 0px 20px
 
     &-h1
-        color: v.$rose
+        color: v.$titles
     p
         color: white
         line-height: 1.5
         strong
-            color: v.$rose
+            color: v.$links
             a
-                color: v.$rose
+                color: v.$links
 
     

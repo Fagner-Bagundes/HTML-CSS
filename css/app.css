@@ -16,26 +16,23 @@ a {
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
-  color: #F2AEC7;
+  color: #ff52c3;
   transition: 0.4s;
 }
 a:hover {
-  color: #c66aea;
+  color: purple;
 }
 
-@media (min-width: 768px) {
-  body {
-    background-color: red;
-  }
+h1, h2 {
+  color: #9F2CBF;
 }
-@media (min-width: 1024px) {
-  body {
-    background-color: blue;
-  }
+
+p {
+  color: #fff;
 }
 
 header {
-  background-color: black;
+  background-color: #070926;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -49,40 +46,45 @@ header img {
 }
 header nav a {
   margin-right: 10px;
-  color: #F2AEC7;
-  font-weight: bold;
+  color: #ff52c3;
+  padding: 5px;
 }
 
 .apresentation {
-  background-color: #000;
   display: flex;
   flex-direction: column;
   gap: 10px;
   text-align: center;
-  padding: 50px 20px;
+  padding: 0px 20px;
 }
 .apresentation-h1 {
-  color: #F2AEC7;
+  color: #9F2CBF;
 }
 .apresentation p {
   color: white;
   line-height: 1.5;
 }
 .apresentation p strong {
-  color: #F2AEC7;
+  color: #ff52c3;
 }
 .apresentation p strong a {
-  color: #F2AEC7;
+  color: #ff52c3;
 }
 
 .repositorio {
-  background-color: #000;
+  background-color: #290c1f;
   display: flex;
   flex-direction: column;
   color: #fff;
   justify-content: center;
   align-items: center;
   text-align: center;
+  align-self: center;
+  width: 80%;
+  max-width: 300px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  padding: 15px;
 }
 .repositorio img {
   width: 30%;
@@ -91,7 +93,23 @@ header nav a {
 }
 .repositorio img:hover {
   border-radius: 50%;
-  background-color: #c66aea;
+  background-color: #9F2CBF;
+}
+
+.front-mentor {
+  text-align: center;
+}
+
+.exercicios {
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #070926;
+  gap: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
