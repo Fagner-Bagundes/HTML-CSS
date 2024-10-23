@@ -1,3 +1,5 @@
+@use 'variables' as var
+    
 *
     padding: 0
     border: 0
@@ -6,7 +8,15 @@
 html, body
     height: 100vh  
     font-size: 15px  
+    padding: 0
+    margin: 0
+    font-family: var.$font-body
 a
     cursor: pointer
     text-decoration: none
     font-weight: bold
+    color: var.$rose
+    transition: .4s
+
+    &:hover
+        color: var.$purple

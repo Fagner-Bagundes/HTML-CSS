@@ -7,12 +7,20 @@
 html, body {
   height: 100vh;
   font-size: 15px;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
 }
 
 a {
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
+  color: #F2AEC7;
+  transition: 0.4s;
+}
+a:hover {
+  color: #c66aea;
 }
 
 @media (min-width: 768px) {
@@ -24,6 +32,66 @@ a {
   body {
     background-color: blue;
   }
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+}
+header img {
+  width: 12%;
+  filter: invert(100%);
+}
+header nav a {
+  margin-right: 10px;
+  color: #F2AEC7;
+  font-weight: bold;
+}
+
+.apresentation {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  padding: 50px 20px;
+}
+.apresentation-h1 {
+  color: #F2AEC7;
+}
+.apresentation p {
+  color: white;
+  line-height: 1.5;
+}
+.apresentation p strong {
+  color: #F2AEC7;
+}
+.apresentation p strong a {
+  color: #F2AEC7;
+}
+
+.repositorio {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.repositorio img {
+  width: 30%;
+  transition: 0.4s;
+  border-radius: 30%;
+}
+.repositorio img:hover {
+  border-radius: 50%;
+  background-color: #c66aea;
 }
 
 /*# sourceMappingURL=app.css.map */
