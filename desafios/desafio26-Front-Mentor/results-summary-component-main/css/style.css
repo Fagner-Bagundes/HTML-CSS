@@ -59,8 +59,7 @@ p{
 
 .ball-results{
     background-image: linear-gradient(to bottom, var(--Violetblue-circle), var(--Persianblue-circle));
-    padding-block: 20px;
-    padding-inline: 25px;
+    padding: 25px;
     border-radius: 50%;
 }
 .ball-results>strong{
