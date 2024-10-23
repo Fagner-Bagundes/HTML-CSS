@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    Font-size: 16px;
+}
+
+/* vaiables */
+
+
+/* ## Colors */
+:root{
+
+    /* ### Primary */
+    
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    
+    /* ### Neutral */
+    
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+
+    /* fonts */
+    --font-Karla: "Karla";
+}
+
+
+
+
+body{
+    background-color: lightblue;
+}
