@@ -8,9 +8,11 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: var(--font-famlily);
+    height: 100vh;
 }
 p{
-    Font-size: 18px
+    Font-size: 18px;
+    color: var(--Lightlavender);
 }
 
 :root{
@@ -59,7 +61,7 @@ p{
 
 .ball-results{
     background-image: linear-gradient(to bottom, var(--Violetblue-circle), var(--Persianblue-circle));
-    padding: 40px;
+    padding: 30px 40px;
     border-radius: 50%;
 }
 .ball-results>strong{
@@ -69,13 +71,10 @@ p{
 .hero-1-content>h1{
     margin-bottom: 10px;
 }
-.txt{
-    
-    
-}
 
 .hero-2{
     padding: 20px 30px;
+    font-size: .8rem;
 }
 .container-dados{
     display: grid;
@@ -86,14 +85,14 @@ p{
 .card{
     display: flex;
     justify-content: space-between;
-    padding: 17px 20px;
+    padding: 15px 15px;
     border-radius: 10px;
     font-weight: bold;
     align-items: center;
 }
 .card>.name{
     display: flex;
-    gap: 8px;
+    gap: 5px;
 }
 span{
     color: rgba(0, 0, 0, 0.51);
@@ -133,9 +132,12 @@ span{
 .btn{
     background-color: var(--Darkgrayblue);
     width: 100%;
-    padding: 18px;
+    padding: 17px;
     border-radius: 30px;
     color: var(--White);
     border: none;
-
+}
+.btn:hover{
+    background-image: linear-gradient(to top, var(--Lightroyalblue-background), var(--Lightslateblue-background));
+    cursor: pointer;
 }

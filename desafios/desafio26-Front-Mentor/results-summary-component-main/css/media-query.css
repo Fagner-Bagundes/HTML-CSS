@@ -1,0 +1,23 @@
+@media screen and (min-width: 1024px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main{
+        display:grid;
+        grid-template-columns: 300px 300px ;
+        box-shadow: 6px 10px 50px 4px rgba(8, 69, 212, 0.137);
+        border-radius: 35px;
+        height: 410px;
+    }
+    .hero-1{
+        border-radius: 35px;
+    }
+
+    .txt{
+        font-size: .9rem;
+        padding: 0px 20px;
+    }
+}
