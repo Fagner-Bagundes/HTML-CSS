@@ -36,6 +36,10 @@ html, body{
 body{
     background-color: var(--Light-Gray);
     font-family: 'Karla';
+    display: grid;
+    justify-content: center;
+    
+    
 }
 
 .container{
@@ -43,7 +47,9 @@ body{
     margin-block: 50px;
     display: grid;
     grid-template: auto 1fr 1fr/ auto;
-    height: 500px;
+    height: 600px;
+
+    
 }
 
 .card-1{

@@ -1,7 +1,20 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 600px) {
+
+    body{
+        justify-content: center;
+        align-content: center;
+    }
+    .container{
+        max-width: 600px;
+        margin-block: 0;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     body{
         background-color: red;
     }
+    
 }
