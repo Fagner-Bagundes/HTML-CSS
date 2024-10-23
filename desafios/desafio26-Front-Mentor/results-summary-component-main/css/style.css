@@ -7,6 +7,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    font-family: var(--font-famlily);
 }
 p{
     Font-size: 18px
@@ -20,7 +21,7 @@ p{
 --Greenteal: hsl(166, 100%, 37%);
 --Cobaltblue: hsl(234, 85%, 45%);
 
-/* */
+/* gradient */
 
 --Lightslateblue-background: hsl(252, 100%, 67%);
 --Lightroyalblue-background: hsl(241, 81%, 54%);
@@ -28,7 +29,7 @@ p{
 --Violetblue-circle: hsla(256, 72%, 46%, 1);
 --Persianblue-circle: hsla(241, 72%, 46%, 0);
 
-/* */
+/*neutral */
 
 --White: hsl(0, 0%, 100%);
 --Paleblue: hsl(221, 100%, 96%);
@@ -37,4 +38,38 @@ p{
 
 /* Fonts */
 --font-famlily: 'Hanken Grotesk'
+}
+
+
+main{
+    background-color: lightblue;
+}
+
+.hero-1{
+    background-image: linear-gradient(to top, var(--Lightroyalblue-background), var(--Lightslateblue-background));
+    padding: 25px;
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.ball-results{
+    background-image: linear-gradient(to bottom, var(--Violetblue-circle), var(--Persianblue-circle));
+    padding-block: 20px;
+    padding-inline: 25px;
+    border-radius: 50%;
+}
+.ball-results>strong{
+    display: block;
+    font-size: 4em;  
+}
+.hero-1-content>h1{
+    margin-bottom: 10px;
+
 }
