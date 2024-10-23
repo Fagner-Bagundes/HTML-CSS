@@ -41,9 +41,6 @@ p{
 }
 
 
-main{
-    background-color: lightblue;
-}
 
 .hero-1{
     background-image: linear-gradient(to top, var(--Lightroyalblue-background), var(--Lightslateblue-background));
@@ -57,6 +54,7 @@ main{
     gap: 25px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+    padding-bottom: 30px;
 }
 
 .ball-results{
@@ -72,6 +70,10 @@ main{
 .hero-1-content>h1{
     margin-bottom: 10px;
 }
+.txt{
+    
+    
+}
 
 .hero-2{
     padding: 20px 30px;
@@ -85,7 +87,7 @@ main{
 .card{
     display: flex;
     justify-content: space-between;
-    padding: 15px 20px;
+    padding: 17px 20px;
     border-radius: 10px;
     font-weight: bold;
     align-items: center;
@@ -127,4 +129,14 @@ span{
 .visual>.name{
     color: var(--Cobaltblue);
 }
-.btn
+
+
+.btn{
+    background-color: var(--Darkgrayblue);
+    width: 100%;
+    padding: 18px;
+    border-radius: 30px;
+    color: var(--White);
+    border: none;
+
+}
