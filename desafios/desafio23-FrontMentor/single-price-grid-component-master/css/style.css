@@ -69,5 +69,39 @@ body{
     font-size: 13px;
     line-height: 1.8;
     font-weight: bolder;
+}
+
+.card-2{
+    background-color: var(--Cyan);
+    padding-inline: 
+    24px;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+.card-2>h2{
+    font-size: 1rem;
+}
+
+.card-2>.value{
+    color: #ffffff90;
+}
+
+.card-2>.value>strong{
+    font-size: 2rem;
+    color: white;
+    margin-right: 8px;
+}
+a{
+    padding: 13px;
+    background-color: var(--Bright-Yellow);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
 
 }
