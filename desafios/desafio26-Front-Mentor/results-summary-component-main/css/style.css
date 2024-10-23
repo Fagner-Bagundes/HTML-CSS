@@ -71,5 +71,60 @@ main{
 }
 .hero-1-content>h1{
     margin-bottom: 10px;
+}
+
+.hero-2{
+    padding: 20px 30px;
+}
+.container-dados{
+    display: grid;
+    gap: 15px;
+    margin-block: 20px;
 
 }
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+.card>.name{
+    display: flex;
+    gap: 8px;
+}
+span{
+    color: rgba(0, 0, 0, 0.51);
+}
+
+.reaction{
+    background-color: hsl(6, 100%, 98%);
+}
+
+.reaction>.name{
+    color: var(--Lightred);
+}
+
+.memory{
+    background-color: hsl(42, 100%, 97%);
+}
+
+.memory>.name{
+    color: var(--Orangeyyellow);
+}
+
+.verbal{
+    background-color: hsl(173, 53%, 97%);
+}
+.verbal>.name{
+    color:var(--Greenteal);
+}
+
+.visual{
+    background-color: hsl(240, 71%, 97%);
+}
+.visual>.name{
+    color: var(--Cobaltblue);
+}
+.btn
