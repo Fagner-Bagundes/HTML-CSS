@@ -39,11 +39,11 @@ body{
 }
 
 .container{
-    background-color: red;
     margin-inline: 30px;
     margin-block: 50px;
     display: grid;
     grid-template: auto 1fr 1fr/ auto;
+    height: 500px;
 }
 
 .card-1{
@@ -82,7 +82,7 @@ body{
     color: white;
 }
 .card-2>h2{
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .card-2>.value{
@@ -104,4 +104,20 @@ a{
     border-radius: 5px;
     margin-top: 15px;
 
+}
+
+.card-3{
+    padding: 20px 24px;
+    background-color:  hsla(179, 67%, 53%, 0.915);
+    color: white;
+}
+.card-3>h2{
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+.card-3>p{
+    margin-right: 27%;
+    line-height: 1.4;
+    font-size: 14px;
+    color: #ffffffcb;
 }
