@@ -3,12 +3,31 @@
 
 .front-mentor 
     text-align: center
-
-.desafios-cards-f
-    background-color: blue
+    background-color: v.$front-mentor
     display: flex
     flex-direction: column
+
+
+.desafios-cards-f
+    
+    display: flex
     gap: 10px
     padding: 25px
     .desafio-f
-        background-color: purple
+        border: solid 1px v.$titles
+        margin-bottom: 35px
+
+        p
+
+            font-size: 1rem
+
+        img
+            width: 100%
+
+.btn-avancar, .btn-voltar
+    background-color: red
+    align-self: center
+    width: 50px
+    height: 50px
+
+    cursor: pointer
