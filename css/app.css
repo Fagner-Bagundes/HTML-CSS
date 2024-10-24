@@ -15,7 +15,6 @@ html, body {
 a {
   cursor: pointer;
   text-decoration: none;
-  font-weight: bold;
   color: #ff52c3;
   transition: 0.4s;
 }
@@ -29,10 +28,11 @@ h1, h2 {
 
 p {
   color: #fff;
+  line-height: 1.5;
 }
 
 header {
-  background-color: #070926;
+  background-color: #0a0013;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -64,15 +64,9 @@ header nav a {
   color: white;
   line-height: 1.5;
 }
-.apresentation-container p strong {
-  color: #ff52c3;
-}
-.apresentation-container p strong a {
-  color: #ff52c3;
-}
 
 .repositorio {
-  background-color: rgba(173, 60, 133, 0.2039215686);
+  background-color: rgba(112, 0, 181, 0.2392156863);
   display: flex;
   flex-direction: row;
   color: #fff;
@@ -110,6 +104,17 @@ a img:hover {
 
 .front-mentor {
   text-align: center;
+}
+
+.desafios-cards-f {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px;
+}
+.desafios-cards-f .desafio-f {
+  background-color: purple;
 }
 
 .exercicios {
