@@ -75,29 +75,33 @@ header nav a:hover {
   display: flex;
   flex-direction: column;
 }
-
-.desafios-cards-f {
+.front-mentor .desafios-container {
   display: flex;
-  gap: 10px;
-  padding: 25px;
+  align-items: center;
+  justify-content: center;
 }
-.desafios-cards-f .desafio-f {
-  border: solid 1px #9F2CBF;
-  margin-bottom: 35px;
+.front-mentor .desafios-container .desafios-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  transition: opacity 0.4s;
 }
-.desafios-cards-f .desafio-f p {
-  font-size: 1rem;
+.front-mentor .desafios-container .desafios-cards .desafio-f {
+  display: none;
 }
-.desafios-cards-f .desafio-f img {
+.front-mentor .desafios-container .desafios-cards .desafio-f img {
   width: 100%;
 }
-
-.btn-avancar, .btn-voltar {
-  background-color: red;
-  align-self: center;
+.front-mentor .desafios-container .desafios-cards .on {
+  display: block;
+}
+.front-mentor .btn-avancar, .front-mentor .btn-voltar {
   width: 50px;
   height: 50px;
-  cursor: pointer;
+}
+.front-mentor .btn-avancar:hover, .front-mentor .btn-voltar:hover {
+  cursor: poionter;
 }
 
 .exercicios {

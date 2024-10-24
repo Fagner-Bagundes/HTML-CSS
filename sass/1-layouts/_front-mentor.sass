@@ -7,27 +7,31 @@
     display: flex
     flex-direction: column
 
+    .desafios-container
+        display: flex
+        align-items: center
+        justify-content: center
+        .desafios-cards
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 80%
+            transition: opacity .4s
 
-.desafios-cards-f
+            .desafio-f
+                display: none
+                
+                img
+                    width: 100%
+
+            .on
+                display: block
+                
     
-    display: flex
-    gap: 10px
-    padding: 25px
-    .desafio-f
-        border: solid 1px v.$titles
-        margin-bottom: 35px
+    .btn-avancar, .btn-voltar
+        width: 50px
+        height: 50px
 
-        p
+        &:hover
+            cursor: poionter
 
-            font-size: 1rem
-
-        img
-            width: 100%
-
-.btn-avancar, .btn-voltar
-    background-color: red
-    align-self: center
-    width: 50px
-    height: 50px
-
-    cursor: pointer
