@@ -93,7 +93,7 @@ header nav a:hover {
 .front-mentor .desafios-container .desafios-cards .desafio-f {
   display: none;
   transition: 0.2s;
-  background-color: blue;
+  margin-top: 3%;
 }
 .front-mentor .desafios-container .desafios-cards .desafio-f img {
   width: 100%;
@@ -117,13 +117,13 @@ header nav a:hover {
   filter: invert(100%);
   align-self: end;
 }
-@media (min-width: 376px) {
+@media (min-width: 768px) {
   .front-mentor .btn-avancar {
     position: absolute;
     margin-right: -60%;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 768px) {
   .front-mentor .btn-voltar {
     position: absolute;
     margin-left: -60%;
