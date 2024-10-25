@@ -13,9 +13,30 @@ function showSlider() {
 }
 
 function avancarSlide(){
-    
+    hideSlider()
+    if (currentSlide === slider.length -1) {
+        currentSlide = 0
+    } else {
+        currentSlide++
+    }
+    showSlider()
 }
 
-btnAvancar.addEventListener(`click`, () => console.log(`Clicado`))
+function voltarSlide(){
+    hideSlider()
+    if (currentSlide === 0) {
+        currentSlide = slider.length -1
+    } else {
+        currentSlide--
+    }
+    showSlider()
+}
 
-btnVoltar.addEventListener(`click`, () => console.log(`Clicado`))
+btnAvancar.addEventListener(`click`, voltarSlide())
+
+btnVoltar.addEventListener(`click`, avancarSlide())
+
+console.log(slider);
+
+console.log(currentSlide);
+
