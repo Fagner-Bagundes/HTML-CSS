@@ -30,18 +30,12 @@
                 background-color: blue
                 
                 img
-                    width: 130%
-                    margin-left: -15%
+                    width: 100%
                     border-radius: 28px
                     max-width: 350px
                     margin-block: 10px
                     background-color: red
 
-                    @include b-m.tablet
-                        margin-left: 0
-                        width: 350px
-                        padding: 10px
-                        background-color: red
                         
                         
 
@@ -49,8 +43,9 @@
 
             p
                 height: 50px
-                width: 90%
+                width: 80%
                 margin: auto
+                margin-top: 15px 
                 
                 
             .on
@@ -64,6 +59,17 @@
         height: 50px
         filter: (invert(100%))
         align-self: end
+
+    .btn-avancar
+        @include b-m.tablet
+            position: absolute
+            margin-right: -60%
+        
+        
+    .btn-voltar
+        @include b-m.tablet
+            position: absolute
+            margin-left: -60%
 
         &:hover
             cursor: pointer

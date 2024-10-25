@@ -96,25 +96,17 @@ header nav a:hover {
   background-color: blue;
 }
 .front-mentor .desafios-container .desafios-cards .desafio-f img {
-  width: 130%;
-  margin-left: -15%;
+  width: 100%;
   border-radius: 28px;
   max-width: 350px;
   margin-block: 10px;
   background-color: red;
 }
-@media (min-width: 376px) {
-  .front-mentor .desafios-container .desafios-cards .desafio-f img {
-    margin-left: 0;
-    width: 350px;
-    padding: 10px;
-    background-color: red;
-  }
-}
 .front-mentor .desafios-container .desafios-cards p {
   height: 50px;
-  width: 90%;
+  width: 80%;
   margin: auto;
+  margin-top: 15px;
 }
 .front-mentor .desafios-container .desafios-cards .on {
   display: block;
@@ -125,7 +117,19 @@ header nav a:hover {
   filter: invert(100%);
   align-self: end;
 }
-.front-mentor .btn-avancar:hover, .front-mentor .btn-voltar:hover {
+@media (min-width: 376px) {
+  .front-mentor .btn-avancar {
+    position: absolute;
+    margin-right: -60%;
+  }
+}
+@media (min-width: 376px) {
+  .front-mentor .btn-voltar {
+    position: absolute;
+    margin-left: -60%;
+  }
+}
+.front-mentor .btn-voltar:hover {
   cursor: pointer;
 }
 
