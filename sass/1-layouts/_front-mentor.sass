@@ -1,5 +1,6 @@
 @use '../0-base/_variables' as v
 @use '../0-base/_base-mixins' as b-m
+@use 'sass:color'
 
 .front-mentor 
     text-align: center
@@ -45,8 +46,13 @@
                 height: 50px
                 width: 80%
                 margin: auto
-                margin-top: 15px 
-                
+                margin-top: 15px
+
+                a
+                    color: v.$links
+                    &:hover
+                        color: #ff52c2b8
+                        text-decoration: underline
                 
             .on
                 display: block
