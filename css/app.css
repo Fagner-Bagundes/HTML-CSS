@@ -88,18 +88,14 @@ header nav a:hover {
 }
 .front-mentor .desafios-container .desafios-cards .desafio-f {
   display: none;
-  opacity: 0;
   transition: 0.2s;
 }
 .front-mentor .desafios-container .desafios-cards .desafio-f img {
   width: 100%;
-  transition: 0.4s;
+  border-radius: 28px;
 }
 .front-mentor .desafios-container .desafios-cards .on {
-  opacity: 1;
   display: block;
-  transition: 3s;
-  background-color: blue;
 }
 .front-mentor .btn-avancar, .front-mentor .btn-voltar {
   width: 50px;
