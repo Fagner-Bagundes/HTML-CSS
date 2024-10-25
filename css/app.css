@@ -119,7 +119,7 @@ header nav a:hover {
 }
 .front-mentor .desafios-container .desafios-cards p a:hover {
   color: rgba(255, 82, 194, 0.7215686275);
-  text-decoration: underline;
+  border-bottom: solid 1px #ff52c3;
 }
 .front-mentor .desafios-container .desafios-cards .on {
   display: block;
