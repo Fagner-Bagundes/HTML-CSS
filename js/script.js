@@ -5,7 +5,7 @@ const btnAvancar = document.querySelector('.btn-avancar');
 let currentSlide = 0;
 
 function hideSlider() {
-    slider.forEach(item = item.classList.remove('on'))
+    slider.forEach(item => item.classList.remove('on'))
 };
 
 function showSlider() {
@@ -32,11 +32,11 @@ function voltarSlide(){
     showSlider()
 }
 
-btnAvancar.addEventListener(`click`, voltarSlide())
+btnAvancar.addEventListener(`click`, avancarSlide)
 
-btnVoltar.addEventListener(`click`, avancarSlide())
+btnVoltar.addEventListener(`click`, voltarSlide)
 
 console.log(slider);
 
-console.log(currentSlide);
+
 
