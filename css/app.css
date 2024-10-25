@@ -67,6 +67,12 @@ header nav a:hover {
 .apresentation-container p {
   color: white;
   line-height: 1.5;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .apresentation-container p {
+    width: 70%;
+  }
 }
 
 .front-mentor {
@@ -118,28 +124,18 @@ header nav a:hover {
   align-self: end;
 }
 @media (min-width: 768px) {
-  .front-mentor .btn-avancar {
-    position: absolute;
-    margin-right: -60%;
+  .front-mentor .btn-avancar, .front-mentor .btn-voltar {
+    align-self: center;
+    margin-top: -50px;
   }
 }
-@media (min-width: 768px) {
-  .front-mentor .btn-voltar {
-    position: absolute;
-    margin-left: -60%;
-  }
-}
-.front-mentor .btn-voltar:hover {
+.front-mentor .btn-avancar:hover, .front-mentor .btn-voltar:hover {
   cursor: pointer;
 }
 
 .exercicios {
   text-align: center;
   padding: 20px;
-}
-
-footer {
-  text-align: center;
 }
 
 body {

@@ -1,5 +1,5 @@
 @use '../0-base/_variables' as v
-@use '../0-base/base-mixins' as b-m
+@use '../0-base/_base-mixins' as b-m
 
 .apresentation-container 
     display: flex
@@ -13,5 +13,8 @@
     p
         color: white
         line-height: 1.5
+        margin: auto
+        @include b-m.tablet
+            width: 70%
 
     
